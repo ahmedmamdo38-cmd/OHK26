@@ -34,6 +34,8 @@ namespace Task3
             }
             VastausLB.Text = Convert.ToString(vastaus);
             VastausLB.Visible = true;
+
+            //Laskuri on toimi :) 
         }
     }
 }
