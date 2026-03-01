@@ -43,5 +43,7 @@ namespace Task5
         {
             UusiLukuTB.Text = "";
         }
+
+        //Koodissa ei ole mitään virheita, mutta mää en tiedä mitä koodi toimi ?
     }
 }
