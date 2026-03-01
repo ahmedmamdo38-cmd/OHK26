@@ -10,7 +10,9 @@ namespace Task1
         private void VaihdaBT_Click(object sender, EventArgs e)
         {
             OtsikkoLB.Text = "Heippa Maailma!!!";
+            OtsikkoLB.Text = "Hello World!!!";
             //OtsikkoLB.Visible = true;
+            ///
         }
     }
 }
