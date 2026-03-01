@@ -24,6 +24,7 @@ namespace Task4
             HourLB.Visible = true;
             MinuteLB.Visible = true;
             SecondLB.Visible = true;
+            // Iän laskaminen toimi :)
         }
     }
 }
