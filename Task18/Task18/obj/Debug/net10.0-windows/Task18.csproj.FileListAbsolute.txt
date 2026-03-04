@@ -1,0 +1,17 @@
+C:\Users\ahmed\source2\OHK26\Task18\Task18\bin\Debug\net10.0-windows\Task18.exe
+C:\Users\ahmed\source2\OHK26\Task18\Task18\bin\Debug\net10.0-windows\Task18.deps.json
+C:\Users\ahmed\source2\OHK26\Task18\Task18\bin\Debug\net10.0-windows\Task18.runtimeconfig.json
+C:\Users\ahmed\source2\OHK26\Task18\Task18\bin\Debug\net10.0-windows\Task18.dll
+C:\Users\ahmed\source2\OHK26\Task18\Task18\bin\Debug\net10.0-windows\Task18.pdb
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.OppilaitosKeyFM.resources
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.csproj.GenerateResource.cache
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.AssemblyInfoInputs.cache
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.AssemblyInfo.cs
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.sourcelink.json
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.dll
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\refint\Task18.dll
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.pdb
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\Task18.genruntimeconfig.cache
+C:\Users\ahmed\source2\OHK26\Task18\Task18\obj\Debug\net10.0-windows\ref\Task18.dll
