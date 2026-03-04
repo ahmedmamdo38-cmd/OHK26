@@ -10,8 +10,7 @@ namespace Task13
         private void TarkastaBT_Click(object sender, EventArgs e)
         {
             VastausLB.Text = "";
-            
-
+            VastausLB.Visible = false;
             string[] pojat = File.ReadAllLines("C:/Users/ahmed/source2/OHK26/pojat.txt");
             string[] tytot = File.ReadAllLines("C:/Users/ahmed/source2/OHK26/tytot.txt");
             string nimi = NimiTB.Text;
