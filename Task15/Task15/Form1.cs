@@ -32,4 +32,6 @@ namespace Task15
             AikaLB.Text = String.Format("{0:hh\\:mm\\:ss\\:fff}", sekkari.Elapsed);
         }
     }
+
+    //Missoin complete
 }
