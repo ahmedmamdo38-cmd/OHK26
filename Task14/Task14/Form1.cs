@@ -6,7 +6,7 @@ namespace Task14
         public DiaryFM()
         {
             InitializeComponent();
-            string teksti = File.ReadAllText("C://Temp//demo.txt");
+            string teksti = File.ReadAllText("C:/Temp/demo.txt");
             SyottoTB.Text = teksti;
         }
 
