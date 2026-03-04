@@ -69,7 +69,9 @@ namespace Task12
                 laskuri--;
             }
         }
+
+        //Missoin complete
     }
 
-    
+
 }
