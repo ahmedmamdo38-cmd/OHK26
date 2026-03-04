@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\Task7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2EBACD94-999C-4207-BCA0-4342A4BEDCDC}|Task7\\Task7.csproj|c:\\users\\ahmed\\source2\\ohk26\\task7\\task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2EBACD94-999C-4207-BCA0-4342A4BEDCDC}|Task7\\Task7.csproj|solutionrelative:task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A2EDF43-E0CA-671F-4BD5-00D32A0D7AEB}|Task7\\Task7.csproj|c:\\users\\ahmed\\source2\\ohk26\\task7\\task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A2EDF43-E0CA-671F-4BD5-00D32A0D7AEB}|Task7\\Task7.csproj|solutionrelative:task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2EBACD94-999C-4207-BCA0-4342A4BEDCDC}|Task7\\Task7.csproj|c:\\users\\ahmed\\source2\\ohk26\\task7\\task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2EBACD94-999C-4207-BCA0-4342A4BEDCDC}|Task7\\Task7.csproj|C:\\Users\\ahmed\\source2\\OHK26\\Task7\\task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2EBACD94-999C-4207-BCA0-4342A4BEDCDC}|Task7\\Task7.csproj|solutionrelative:task7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,10 +29,6 @@
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
@@ -40,7 +36,7 @@
               "RelativeDocumentMoniker": "Task7\\Form1.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task7\\Task7\\Form1.cs",
               "RelativeToolTip": "Task7\\Form1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T12:55:24.761Z",
               "EditorCaption": ""
@@ -54,8 +50,7 @@
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task7\\Task7\\Form1.cs [Design]",
               "RelativeToolTip": "Task7\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T12:35:23.197Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-01T12:35:23.197Z"
             }
           ]
         }
