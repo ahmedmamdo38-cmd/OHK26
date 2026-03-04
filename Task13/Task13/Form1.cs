@@ -42,5 +42,7 @@ namespace Task13
                 VastausLB.Visible = true;
             }
         }
+
+        // Missoin complete
     }
 }

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\Task13\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23910816-CD51-440D-9C33-07CF7E951FD3}|Task13\\Task13.csproj|c:\\users\\ahmed\\source2\\ohk26\\task13\\task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23910816-CD51-440D-9C33-07CF7E951FD3}|Task13\\Task13.csproj|solutionrelative:task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0A84273-2A9F-43C1-A756-2BA67BCA6788}|Task13\\Task13.csproj|c:\\users\\ahmed\\source2\\ohk26\\task13\\task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A84273-2A9F-43C1-A756-2BA67BCA6788}|Task13\\Task13.csproj|solutionrelative:task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23910816-CD51-440D-9C33-07CF7E951FD3}|Task13\\Task13.csproj|c:\\users\\ahmed\\source2\\ohk26\\task13\\task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{23910816-CD51-440D-9C33-07CF7E951FD3}|Task13\\Task13.csproj|C:\\Users\\ahmed\\source2\\OHK26\\Task13\\task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{23910816-CD51-440D-9C33-07CF7E951FD3}|Task13\\Task13.csproj|solutionrelative:task13\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Task13\\Form1.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task13\\Task13\\Form1.cs",
               "RelativeToolTip": "Task13\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwA8AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wA4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T11:49:16.782Z",
               "EditorCaption": ""
@@ -54,8 +54,7 @@
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task13\\Task13\\Form1.cs [Design]",
               "RelativeToolTip": "Task13\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T11:44:35.251Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-03-02T11:44:35.251Z"
             }
           ]
         }
