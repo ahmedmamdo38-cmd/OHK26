@@ -44,7 +44,6 @@
             // SalasanaPanel
             // 
             SalasanaPanel.BackColor = Color.MidnightBlue;
-            SalasanaPanel.Controls.Add(SalasanaOikeanPanel);
             SalasanaPanel.Controls.Add(VirheViestiLB);
             SalasanaPanel.Controls.Add(TarkistaBT);
             SalasanaPanel.Controls.Add(SalasanaTB);
@@ -145,6 +144,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(917, 341);
+            Controls.Add(SalasanaOikeanPanel);
             Controls.Add(SalasanaPanel);
             Name = "SalasanaTarkustusFM";
             Text = "Salasana tarkustus";
