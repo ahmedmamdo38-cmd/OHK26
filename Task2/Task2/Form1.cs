@@ -12,7 +12,7 @@ namespace Task2
             string teksti = ViestiTB.Text;
             TulostusLB.Text = teksti;
             TulostusLB.Visible = true;
-            //MOI :)
+            //Moi
 
         }
     }
