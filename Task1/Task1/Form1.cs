@@ -12,7 +12,7 @@ namespace Task1
             OtsikkoLB.Text = "Heippa Maailma!!!";
             OtsikkoLB.Text = "Hello World!!!";
             //OtsikkoLB.Visible = true;
-            ///
+            /// Hello
         }
     }
 }
