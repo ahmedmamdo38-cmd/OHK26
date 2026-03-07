@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             AlaPanel = new Panel();
+            groupBox1 = new GroupBox();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
+            HPuhelinTB = new TextBox();
             HHuonetyyppiCB = new ComboBox();
             HTyhjennaKentatBT = new Button();
             HPoistaBT = new Button();
@@ -42,14 +46,10 @@
             HuonenNroLB = new Label();
             YlaPanel = new Panel();
             HuoneidenHallintaLB = new Label();
-            HPuhelinTB = new TextBox();
-            groupBox1 = new GroupBox();
-            radioButton1 = new RadioButton();
-            radioButton2 = new RadioButton();
             AlaPanel.SuspendLayout();
+            groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)HuoneidenHallintaDG).BeginInit();
             YlaPanel.SuspendLayout();
-            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // AlaPanel
@@ -73,6 +73,55 @@
             AlaPanel.Name = "AlaPanel";
             AlaPanel.Size = new Size(1271, 405);
             AlaPanel.TabIndex = 5;
+            // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.WhiteSmoke;
+            groupBox1.Controls.Add(radioButton2);
+            groupBox1.Controls.Add(radioButton1);
+            groupBox1.FlatStyle = FlatStyle.Popup;
+            groupBox1.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            groupBox1.Location = new Point(231, 150);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(318, 96);
+            groupBox1.TabIndex = 23;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Vaihtoehdot";
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            radioButton2.ForeColor = Color.Red;
+            radioButton2.Location = new Point(183, 30);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(65, 33);
+            radioButton2.TabIndex = 1;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "EI";
+            radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            radioButton1.ForeColor = Color.Green;
+            radioButton1.Location = new Point(17, 30);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(115, 33);
+            radioButton1.TabIndex = 0;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "KYLLÄ";
+            radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
+            // 
+            // HPuhelinTB
+            // 
+            HPuhelinTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            HPuhelinTB.Location = new Point(231, 99);
+            HPuhelinTB.Name = "HPuhelinTB";
+            HPuhelinTB.Size = new Size(318, 36);
+            HPuhelinTB.TabIndex = 22;
             // 
             // HHuonetyyppiCB
             // 
@@ -168,7 +217,7 @@
             // HHuoneNroTB
             // 
             HHuoneNroTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            HHuoneNroTB.Location = new Point(231, 14);
+            HHuoneNroTB.Location = new Point(221, 18);
             HHuoneNroTB.Name = "HHuoneNroTB";
             HHuoneNroTB.Size = new Size(318, 36);
             HHuoneNroTB.TabIndex = 2;
@@ -215,55 +264,6 @@
             HuoneidenHallintaLB.TabIndex = 0;
             HuoneidenHallintaLB.Text = "Huoneiden Hallinta";
             // 
-            // HPuhelinTB
-            // 
-            HPuhelinTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            HPuhelinTB.Location = new Point(231, 99);
-            HPuhelinTB.Name = "HPuhelinTB";
-            HPuhelinTB.Size = new Size(318, 36);
-            HPuhelinTB.TabIndex = 22;
-            // 
-            // groupBox1
-            // 
-            groupBox1.BackColor = Color.WhiteSmoke;
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.FlatStyle = FlatStyle.Popup;
-            groupBox1.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(231, 150);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(318, 96);
-            groupBox1.TabIndex = 23;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Vaihtoehdot";
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            radioButton1.ForeColor = Color.Green;
-            radioButton1.Location = new Point(17, 30);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(115, 33);
-            radioButton1.TabIndex = 0;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "KYLLÄ";
-            radioButton1.UseVisualStyleBackColor = true;
-            radioButton1.CheckedChanged += radioButton1_CheckedChanged;
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            radioButton2.ForeColor = Color.Red;
-            radioButton2.Location = new Point(183, 30);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(65, 33);
-            radioButton2.TabIndex = 1;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "EI";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
             // Huoneiden_Hallinta
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -275,11 +275,11 @@
             Text = "Huoneiden_Hallinta";
             AlaPanel.ResumeLayout(false);
             AlaPanel.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)HuoneidenHallintaDG).EndInit();
             YlaPanel.ResumeLayout(false);
             YlaPanel.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 

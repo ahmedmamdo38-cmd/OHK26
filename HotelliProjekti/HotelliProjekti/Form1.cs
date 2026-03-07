@@ -6,5 +6,10 @@ namespace HotelliProjekti
         {
             InitializeComponent();
         }
+
+        private void KirjautumisikkunaFM_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

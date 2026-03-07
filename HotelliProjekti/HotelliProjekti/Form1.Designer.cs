@@ -114,6 +114,7 @@
             ForeColor = Color.White;
             Name = "KirjautumisikkunaFM";
             Text = "Kirjautumisikkuna";
+            Load += KirjautumisikkunaFM_Load;
             ResumeLayout(false);
             PerformLayout();
         }
