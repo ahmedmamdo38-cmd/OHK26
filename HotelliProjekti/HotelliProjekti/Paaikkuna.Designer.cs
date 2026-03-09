@@ -102,18 +102,21 @@
             hallitseAsiakkaitaToolStripMenuItem.Name = "hallitseAsiakkaitaToolStripMenuItem";
             hallitseAsiakkaitaToolStripMenuItem.Size = new Size(171, 29);
             hallitseAsiakkaitaToolStripMenuItem.Text = "Hallitse asiakkaita ";
+            hallitseAsiakkaitaToolStripMenuItem.Click += hallitseAsiakkaitaToolStripMenuItem_Click;
             // 
             // hallitseToolStripMenuItem
             // 
             hallitseToolStripMenuItem.Name = "hallitseToolStripMenuItem";
             hallitseToolStripMenuItem.Size = new Size(163, 29);
             hallitseToolStripMenuItem.Text = "Hallitse varauksia";
+            hallitseToolStripMenuItem.Click += hallitseToolStripMenuItem_Click;
             // 
             // hallitseHuoneitaToolStripMenuItem
             // 
             hallitseHuoneitaToolStripMenuItem.Name = "hallitseHuoneitaToolStripMenuItem";
             hallitseHuoneitaToolStripMenuItem.Size = new Size(159, 29);
             hallitseHuoneitaToolStripMenuItem.Text = "Hallitse huoneita";
+            hallitseHuoneitaToolStripMenuItem.Click += hallitseHuoneitaToolStripMenuItem_Click;
             // 
             // label4
             // 
@@ -140,6 +143,7 @@
             MainMenuStrip = ValikkoMS;
             Name = "Paaikkuna";
             Text = "Paaikkuna";
+            FormClosed += Paaikkuna_FormClosed;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ValikkoMS.ResumeLayout(false);
             ValikkoMS.PerformLayout();

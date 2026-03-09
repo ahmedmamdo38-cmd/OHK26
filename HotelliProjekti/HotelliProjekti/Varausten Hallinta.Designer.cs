@@ -76,7 +76,7 @@
             AlaPanel.Dock = DockStyle.Fill;
             AlaPanel.Location = new Point(0, 98);
             AlaPanel.Name = "AlaPanel";
-            AlaPanel.Size = new Size(1272, 450);
+            AlaPanel.Size = new Size(1272, 477);
             AlaPanel.TabIndex = 3;
             // 
             // VUlosDTP
@@ -240,7 +240,7 @@
             VaraustenHallintaDG.Location = new Point(621, 0);
             VaraustenHallintaDG.Name = "VaraustenHallintaDG";
             VaraustenHallintaDG.RowHeadersWidth = 62;
-            VaraustenHallintaDG.Size = new Size(651, 450);
+            VaraustenHallintaDG.Size = new Size(651, 477);
             VaraustenHallintaDG.TabIndex = 1;
             // 
             // VarausNroLB
@@ -278,7 +278,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1272, 548);
+            ClientSize = new Size(1272, 575);
             Controls.Add(AlaPanel);
             Controls.Add(YlaPanel);
             Name = "VaraustenHallintaFM";
