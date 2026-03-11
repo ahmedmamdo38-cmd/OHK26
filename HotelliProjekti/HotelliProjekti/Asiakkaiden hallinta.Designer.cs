@@ -156,6 +156,7 @@
             ALisääUusiAsiakasBT.TabIndex = 15;
             ALisääUusiAsiakasBT.Text = "Lisää uusi asiakas";
             ALisääUusiAsiakasBT.UseVisualStyleBackColor = false;
+            ALisääUusiAsiakasBT.Click += ALisääUusiAsiakasBT_Click;
             // 
             // ASalasanaTB
             // 
@@ -303,6 +304,7 @@
             Controls.Add(YlaPanel);
             Name = "Asiakkaiden_hallintaFM";
             Text = "Asiakkaiden hallinta";
+            Load += Asiakkaiden_hallintaFM_Load;
             YlaPanel.ResumeLayout(false);
             YlaPanel.PerformLayout();
             AlaPanel.ResumeLayout(false);

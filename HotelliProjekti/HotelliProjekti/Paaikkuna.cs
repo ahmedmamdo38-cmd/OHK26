@@ -30,7 +30,7 @@ namespace HotelliProjekti
         private void hallitseAsiakkaitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Asiakkaiden_hallintaFM Costumers = new Asiakkaiden_hallintaFM();
-            Costumers.Show();
+            Costumers.ShowDialog();
             this.Hide();
         }
 
@@ -42,15 +42,20 @@ namespace HotelliProjekti
         private void hallitseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             VaraustenHallintaFM Reservation = new VaraustenHallintaFM();
-            Reservation.Show();
+            Reservation.ShowDialog();
             this.Hide();
         }
 
         private void hallitseHuoneitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Huoneiden_Hallinta  Rooms = new Huoneiden_Hallinta();
-            Rooms.Show();
+            Huoneiden_Hallinta Rooms = new Huoneiden_Hallinta();
+            Rooms.ShowDialog();
             this.Hide();
+        }
+
+        private void Paaikkuna_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -143,6 +143,7 @@
             MainMenuStrip = ValikkoMS;
             Name = "Paaikkuna";
             Text = "Paaikkuna";
+            FormClosing += Paaikkuna_FormClosing;
             FormClosed += Paaikkuna_FormClosed;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ValikkoMS.ResumeLayout(false);
