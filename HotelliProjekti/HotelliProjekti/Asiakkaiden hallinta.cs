@@ -29,7 +29,41 @@ namespace HotelliProjekti
 
         private void ALisääUusiAsiakasBT_Click(object sender, EventArgs e)
         {
-            
+            String enimi = AEtunimiTB.Text;
+            String snimi = ASukunimiTB.Text;
+            String osoite = ALahiosoiteTB.Text;
+            String pnro = APostinumeroTB.Text;
+            String ppaikka = APostitoimipaikkaTB.Text;
+            String kayttaja = AkäyttäjätunnusTb.Text;
+            int ssana = Int32.Parse(ASalasanaTB.Text);
+
+            if (enimi.Equals("") || snimi.Equals("") || osoite.Equals("") ||  pnro.Equals("") || ppaikka.Equals("") || kayttaja.Equals("") || ssana.Equals("") )
+            {
+                MessageBox.Show("VIRHE- Vaaditut kentät - Etunimi ja sukuinimi, lahiosoite, postinumero ja postitoimipaikka", "Tyhjä kentät", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                Boolean lisaaAsiakas = asiakas.lisaaAsiakas(enimi, snimi, osoite, pnro, ppaikka, kayttaja, ssana);
+                if (lisaaAsiakas)
+                {
+                    MessageBox.Show("Uusi asiakas lisätty onnituneesti", "Opiskelijan lisäys", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("Uutta asiakas ei pysty lisämään", "Asiakas lisäys", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void ATyhjennaKentatBT_Click(object sender, EventArgs e)
+        {
+            AEtunimiTB.Text = "";
+            ASukunimiTB.Text = "";
+            ALahiosoiteTB.Text = "";
+            APostinumeroTB.Text = "";
+            APostitoimipaikkaTB.Text = "";
+            ASalasanaTB.Text = "";
+            AkäyttäjätunnusTb.Text = "";
         }
     }
 }

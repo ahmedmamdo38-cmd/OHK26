@@ -117,6 +117,7 @@
             ATyhjennaKentatBT.TabIndex = 18;
             ATyhjennaKentatBT.Text = "Tyhjennä kentät";
             ATyhjennaKentatBT.UseVisualStyleBackColor = false;
+            ATyhjennaKentatBT.Click += ATyhjennaKentatBT_Click;
             // 
             // APoistaBT
             // 

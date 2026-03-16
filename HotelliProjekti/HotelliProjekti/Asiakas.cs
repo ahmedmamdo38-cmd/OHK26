@@ -12,7 +12,7 @@ namespace HotelliProjekti
         Yhdista yhteys = new Yhdista();
 
 
-        public bool lisaaAsiakas(String enimi, String snimi, String osoite, String pnro, String ppaikka, String kayttaja, String ssana)
+        public bool lisaaAsiakas(String enimi, String snimi, String osoite, String pnro, String ppaikka, String kayttaja, int ssana)
         {   
             MySqlCommand komento = new MySqlCommand();
             String lisakysely = "INSERT INTO asiakkaat " +
@@ -36,9 +36,9 @@ namespace HotelliProjekti
             {
                 komento.Parameters.Add("@ktu", MySqlDbType.VarChar).Value = enimi.Substring(0, 3).ToLower() + snimi.Substring(0, 5).ToLower();
             }
-            if(ssana != "")
+            if(ssana != null)
             {
-                komento.Parameters.Add("@ssa", MySqlDbType.VarChar).Value = ssana;
+                komento.Parameters.Add("@ssa", MySqlDbType.Int32).Value = ssana;
             }
             else
             {
