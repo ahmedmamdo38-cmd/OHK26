@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\huoneiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\huoneiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\hotelliprojekti\\asiakkaiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\asiakkaiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\huone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\huone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\huoneiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\huoneiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\asiakas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\asiakas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,16 @@
       "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\asiakkaiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\hotelliprojekti\\asiakkaiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\asiakkaiden hallinta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\testi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\testi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\testi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\testi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\yhdista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\yhdista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\hotelliprojekti\\paaikkuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\paaikkuna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\testi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|solutionrelative:hotelliprojekti\\testi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A3B4ECE-EB7C-47A7-9076-A50CDA3A00DD}|HotelliProjekti\\HotelliProjekti.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelliprojekti\\hotelliprojekti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Paaikkuna.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Paaikkuna.cs",
               "RelativeDocumentMoniker": "HotelliProjekti\\Paaikkuna.cs",
@@ -59,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Asiakkaiden hallinta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Asiakkaiden hallinta.cs",
               "RelativeDocumentMoniker": "HotelliProjekti\\Asiakkaiden hallinta.cs",
@@ -72,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Asiakkaiden hallinta.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Asiakkaiden hallinta.cs",
               "RelativeDocumentMoniker": "HotelliProjekti\\Asiakkaiden hallinta.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Asiakkaiden hallinta.cs",
               "RelativeToolTip": "HotelliProjekti\\Asiakkaiden hallinta.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T11:06:10.871Z",
               "IsPinned": true,
@@ -86,17 +94,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Asiakas.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Asiakas.cs",
               "RelativeDocumentMoniker": "HotelliProjekti\\Asiakas.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Asiakas.cs",
               "RelativeToolTip": "HotelliProjekti\\Asiakas.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwCUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwHoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T08:58:14.006Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Testi.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Testi.cs",
+              "RelativeDocumentMoniker": "HotelliProjekti\\Testi.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Testi.cs",
+              "RelativeToolTip": "HotelliProjekti\\Testi.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:26:56.398Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Program.cs",
+              "RelativeDocumentMoniker": "HotelliProjekti\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Program.cs",
+              "RelativeToolTip": "HotelliProjekti\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T07:47:15.651Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Yhdista.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Yhdista.cs",
+              "RelativeDocumentMoniker": "HotelliProjekti\\Yhdista.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Yhdista.cs",
+              "RelativeToolTip": "HotelliProjekti\\Yhdista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T11:41:36.818Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Huoneiden Hallinta.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Huoneiden Hallinta.cs",
+              "RelativeDocumentMoniker": "HotelliProjekti\\Huoneiden Hallinta.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Huoneiden Hallinta.cs [Design]",
+              "RelativeToolTip": "HotelliProjekti\\Huoneiden Hallinta.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:31:57.942Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Bookmark",
@@ -109,51 +172,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Testi.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Testi.cs",
-              "RelativeDocumentMoniker": "HotelliProjekti\\Testi.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Testi.cs",
-              "RelativeToolTip": "HotelliProjekti\\Testi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAMAAAAAAAAAA==",
+              "Title": "Huoneiden Hallinta.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Huoneiden Hallinta.cs",
+              "RelativeDocumentMoniker": "HotelliProjekti\\Huoneiden Hallinta.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Huoneiden Hallinta.cs",
+              "RelativeToolTip": "HotelliProjekti\\Huoneiden Hallinta.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAD4v3kAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:26:56.398Z",
+              "WhenOpened": "2026-03-18T11:32:01.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Testi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Testi.cs",
-              "RelativeDocumentMoniker": "HotelliProjekti\\Testi.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Testi.cs [Design]",
-              "RelativeToolTip": "HotelliProjekti\\Testi.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Huone.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Huone.cs",
+              "RelativeDocumentMoniker": "HotelliProjekti\\Huone.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Huone.cs",
+              "RelativeToolTip": "HotelliProjekti\\Huone.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T11:26:53.233Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Program.cs",
-              "RelativeDocumentMoniker": "HotelliProjekti\\Program.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Program.cs",
-              "RelativeToolTip": "HotelliProjekti\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T07:47:15.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Yhdista.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Yhdista.cs",
-              "RelativeDocumentMoniker": "HotelliProjekti\\Yhdista.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelliProjekti\\HotelliProjekti\\Yhdista.cs",
-              "RelativeToolTip": "HotelliProjekti\\Yhdista.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T11:41:36.818Z",
+              "WhenOpened": "2026-03-18T10:45:38.148Z",
               "EditorCaption": ""
             }
           ]

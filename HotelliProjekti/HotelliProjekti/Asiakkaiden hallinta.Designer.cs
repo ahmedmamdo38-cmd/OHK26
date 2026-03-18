@@ -131,6 +131,7 @@
             APoistaBT.TabIndex = 17;
             APoistaBT.Text = "Poista";
             APoistaBT.UseVisualStyleBackColor = false;
+            APoistaBT.Click += APoistaBT_Click;
             // 
             // AMuokkaBt
             // 
@@ -144,6 +145,7 @@
             AMuokkaBt.TabIndex = 16;
             AMuokkaBt.Text = "Muokka asiakas";
             AMuokkaBt.UseVisualStyleBackColor = false;
+            AMuokkaBt.Click += AMuokkaBt_Click;
             // 
             // ALisääUusiAsiakasBT
             // 
@@ -285,6 +287,7 @@
             AsiakaidenHallintaDG.RowHeadersWidth = 62;
             AsiakaidenHallintaDG.Size = new Size(651, 525);
             AsiakaidenHallintaDG.TabIndex = 1;
+            AsiakaidenHallintaDG.CellContentClick += AsiakaidenHallintaDG_CellContentClick;
             // 
             // AEtunimiLB
             // 

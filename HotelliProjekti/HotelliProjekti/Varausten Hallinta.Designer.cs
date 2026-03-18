@@ -82,7 +82,7 @@
             // VUlosDTP
             // 
             VUlosDTP.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            VUlosDTP.Location = new Point(231, 227);
+            VUlosDTP.Location = new Point(231, 228);
             VUlosDTP.Name = "VUlosDTP";
             VUlosDTP.Size = new Size(318, 36);
             VUlosDTP.TabIndex = 23;
@@ -90,7 +90,7 @@
             // VSisäänDTP
             // 
             VSisäänDTP.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            VSisäänDTP.Location = new Point(231, 185);
+            VSisäänDTP.Location = new Point(231, 186);
             VSisäänDTP.Name = "VSisäänDTP";
             VSisäänDTP.Size = new Size(318, 36);
             VSisäänDTP.TabIndex = 22;

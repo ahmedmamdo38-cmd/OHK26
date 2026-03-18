@@ -50,6 +50,10 @@
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "dependencies": {
+            "Eramake.eCryptography": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.6.0, )"
