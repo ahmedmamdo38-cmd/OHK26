@@ -36,7 +36,7 @@ namespace HotelliProjekti
             komento.Parameters.Add("@ss", MySqlDbType.VarChar).Value = Salasana1TB.Text;
 
             adapteri.SelectCommand = komento;
-            adapteri.Fill(taulu);
+            adapteri.Fill(taulu);  //
             
             
             if(taulu.Rows.Count > 0)
