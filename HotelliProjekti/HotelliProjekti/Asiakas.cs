@@ -74,7 +74,7 @@ namespace HotelliProjekti
             return taulu;
         }
 
-        public bool muokkaAsiakkaat(String enimi, String snimi, String osoite, String pnro, String ppaikka, String ktunnus)
+        public bool muokkaAsiakkaat(String enimi, String snimi, String osoite, String pnro, String ppaikka, String ktunnus, String salasana)
         {
             MySqlCommand komento = new MySqlCommand();
             String paivityskysely = "UPDATE `asiakkaat` SET `Etunimi`= @enm," +

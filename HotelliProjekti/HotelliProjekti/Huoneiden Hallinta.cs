@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
-
-namespace HotelliProjekti
+﻿namespace HotelliProjekti
 {
     public partial class Huoneiden_Hallinta : Form
     {
@@ -117,11 +109,11 @@ namespace HotelliProjekti
                 }
                 else
                 {
-                    MessageBox.Show("Huoneitta ei pystytty poistamaan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Huoneitta ei pystytty poistamaan", "Huoneen poisto", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Virhe: ", ex.Message);
             }

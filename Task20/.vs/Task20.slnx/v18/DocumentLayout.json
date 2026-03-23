@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\yhdistaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\yhdistaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\opiskelija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\opiskelija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{477486E0-8DD8-4432-AEAC-6357729D5533}|Task20\\Task20.csproj|C:\\Users\\ahmed\\source2\\OHK26\\Task20\\task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{477486E0-8DD8-4432-AEAC-6357729D5533}|Task20\\Task20.csproj|solutionrelative:task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\yhdistaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\yhdistaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\opiskelija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\opiskelija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|c:\\users\\ahmed\\source2\\ohk26\\task20\\task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5281E6E9-F5D5-8B1F-5595-07E9FE340AF9}|Task20\\Task20.csproj|solutionrelative:task20\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +42,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\Form1.cs",
+              "RelativeDocumentMoniker": "Task20\\Form1.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\Form1.cs [Design]",
+              "RelativeToolTip": "Task20\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T11:19:36.831Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\Form1.cs",
               "RelativeDocumentMoniker": "Task20\\Form1.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\Form1.cs",
               "RelativeToolTip": "Task20\\Form1.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwHwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T08:58:53.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "OPISKELIJA.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\OPISKELIJA.cs",
               "RelativeDocumentMoniker": "Task20\\OPISKELIJA.cs",
@@ -59,19 +75,21 @@
               "RelativeToolTip": "Task20\\OPISKELIJA.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAewGIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T08:15:02.374Z"
+              "WhenOpened": "2026-02-27T08:15:02.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Yhdistaa.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\Yhdistaa.cs",
               "RelativeDocumentMoniker": "Task20\\Yhdistaa.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\Task20\\Task20\\Yhdistaa.cs",
               "RelativeToolTip": "Task20\\Yhdistaa.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T08:04:33.297Z"
+              "WhenOpened": "2026-02-27T08:04:33.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

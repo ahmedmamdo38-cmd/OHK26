@@ -35,3 +35,4 @@ C:\Users\ahmed\source2\OHK26\HotelliProjekti\HotelliProjekti\bin\Debug\net10.0-w
 C:\Users\ahmed\source2\OHK26\HotelliProjekti\HotelliProjekti\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\ahmed\source2\OHK26\HotelliProjekti\HotelliProjekti\obj\Debug\net10.0-windows\HotelliProjekti.csproj.AssemblyReference.cache
 C:\Users\ahmed\source2\OHK26\HotelliProjekti\HotelliProjekti\obj\Debug\net10.0-windows\HotelliP.DA99D4E0.Up2Date
+C:\Users\ahmed\source2\OHK26\HotelliProjekti\HotelliProjekti\bin\Debug\net10.0-windows\eCryptography.dll

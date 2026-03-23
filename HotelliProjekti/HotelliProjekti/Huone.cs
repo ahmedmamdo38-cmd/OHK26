@@ -19,6 +19,8 @@ namespace HotelliProjekti
 
             adapteri.SelectCommand = komento;
             adapteri.Fill(taulu);
+
+            return taulu;
         }
 
         public bool lisaaHuone(int hnro, int htyyppi, String puh, String vapaa)

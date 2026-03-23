@@ -35,7 +35,7 @@ namespace HotelliProjekti
             String pnro = APostinumeroTB.Text;
             String ppaikka = APostitoimipaikkaTB.Text;
             String kayttaja = AkäyttäjätunnusTb.Text;
-            int ssana = Int32.Parse(ASalasanaTB.Text);
+            String ssana = ASalasanaTB.Text;
 
             if (enimi.Equals("") || snimi.Equals("") || osoite.Equals("") || pnro.Equals("") || ppaikka.Equals("") || kayttaja.Equals("") || ssana.Equals(""))
             {
@@ -102,7 +102,7 @@ namespace HotelliProjekti
             String pnro =   APostinumeroTB.Text;
             String ppaikka = APostitoimipaikkaTB.Text;
             String kayttaja = AkäyttäjätunnusTb.Text;
-            int ssana = Int32.Parse(ASalasanaTB.Text);
+            String ssana = ASalasanaTB.Text;
 
 
             if (kayttaja.Equals("") || enimi.Equals("") || snimi.Equals("") || osoite.Equals("") || pnro.Equals("") || ppaikka.Equals("") || ssana.Equals(""))
