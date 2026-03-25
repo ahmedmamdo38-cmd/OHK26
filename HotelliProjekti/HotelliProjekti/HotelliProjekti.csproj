@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net10.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Eramake.eCryptography" Version="1.1.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Services.Client" Version="20.256.2" />
     <PackageReference Include="MySql.Data" Version="9.6.0" />
   </ItemGroup>
 

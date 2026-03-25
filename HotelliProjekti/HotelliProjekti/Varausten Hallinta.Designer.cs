@@ -81,7 +81,7 @@
             // 
             // VUlosDTP
             // 
-            VUlosDTP.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VUlosDTP.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VUlosDTP.Location = new Point(231, 228);
             VUlosDTP.Name = "VUlosDTP";
             VUlosDTP.Size = new Size(318, 36);
@@ -89,7 +89,7 @@
             // 
             // VSisäänDTP
             // 
-            VSisäänDTP.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VSisäänDTP.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VSisäänDTP.Location = new Point(231, 186);
             VSisäänDTP.Name = "VSisäänDTP";
             VSisäänDTP.Size = new Size(318, 36);
@@ -97,7 +97,7 @@
             // 
             // VHuoneNroCB
             // 
-            VHuoneNroCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VHuoneNroCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VHuoneNroCB.FormattingEnabled = true;
             VHuoneNroCB.Location = new Point(231, 142);
             VHuoneNroCB.Name = "VHuoneNroCB";
@@ -106,16 +106,17 @@
             // 
             // VHuoneTyyppiCB
             // 
-            VHuoneTyyppiCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VHuoneTyyppiCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VHuoneTyyppiCB.FormattingEnabled = true;
             VHuoneTyyppiCB.Location = new Point(231, 99);
             VHuoneTyyppiCB.Name = "VHuoneTyyppiCB";
             VHuoneTyyppiCB.Size = new Size(318, 37);
             VHuoneTyyppiCB.TabIndex = 20;
+            VHuoneTyyppiCB.SelectedIndexChanged += VHuoneTyyppiCB_SelectedIndexChanged;
             // 
             // VAsiakasNroCB
             // 
-            VAsiakasNroCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VAsiakasNroCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VAsiakasNroCB.FormattingEnabled = true;
             VAsiakasNroCB.Location = new Point(231, 56);
             VAsiakasNroCB.Name = "VAsiakasNroCB";
@@ -126,7 +127,7 @@
             // 
             VTyhjennaKentatBT.BackColor = Color.SkyBlue;
             VTyhjennaKentatBT.FlatStyle = FlatStyle.Popup;
-            VTyhjennaKentatBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            VTyhjennaKentatBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             VTyhjennaKentatBT.ForeColor = Color.White;
             VTyhjennaKentatBT.Location = new Point(157, 343);
             VTyhjennaKentatBT.Name = "VTyhjennaKentatBT";
@@ -139,7 +140,7 @@
             // 
             VPoistaBT.BackColor = Color.SkyBlue;
             VPoistaBT.FlatStyle = FlatStyle.Popup;
-            VPoistaBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            VPoistaBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             VPoistaBT.ForeColor = Color.White;
             VPoistaBT.Location = new Point(12, 343);
             VPoistaBT.Name = "VPoistaBT";
@@ -152,7 +153,7 @@
             // 
             VMuokkaBt.BackColor = Color.SkyBlue;
             VMuokkaBt.FlatStyle = FlatStyle.Popup;
-            VMuokkaBt.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            VMuokkaBt.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             VMuokkaBt.ForeColor = Color.White;
             VMuokkaBt.Location = new Point(269, 286);
             VMuokkaBt.Name = "VMuokkaBt";
@@ -160,12 +161,13 @@
             VMuokkaBt.TabIndex = 16;
             VMuokkaBt.Text = "Muokka";
             VMuokkaBt.UseVisualStyleBackColor = false;
+            VMuokkaBt.Click += VMuokkaBt_Click;
             // 
             // VLisääUusiVarausBT
             // 
             VLisääUusiVarausBT.BackColor = Color.SkyBlue;
             VLisääUusiVarausBT.FlatStyle = FlatStyle.Popup;
-            VLisääUusiVarausBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            VLisääUusiVarausBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             VLisääUusiVarausBT.ForeColor = Color.Snow;
             VLisääUusiVarausBT.Location = new Point(12, 286);
             VLisääUusiVarausBT.Name = "VLisääUusiVarausBT";
@@ -173,11 +175,12 @@
             VLisääUusiVarausBT.TabIndex = 15;
             VLisääUusiVarausBT.Text = "Lisää uusi varaus";
             VLisääUusiVarausBT.UseVisualStyleBackColor = false;
+            VLisääUusiVarausBT.Click += VLisääUusiVarausBT_Click;
             // 
             // VUlosLB
             // 
             VUlosLB.AutoSize = true;
-            VUlosLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VUlosLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VUlosLB.Location = new Point(12, 234);
             VUlosLB.Name = "VUlosLB";
             VUlosLB.Size = new Size(66, 29);
@@ -187,7 +190,7 @@
             // VSisäänLB
             // 
             VSisäänLB.AutoSize = true;
-            VSisäänLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VSisäänLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VSisäänLB.Location = new Point(12, 192);
             VSisäänLB.Name = "VSisäänLB";
             VSisäänLB.Size = new Size(89, 29);
@@ -197,7 +200,7 @@
             // VHuoneenNroLB
             // 
             VHuoneenNroLB.AutoSize = true;
-            VHuoneenNroLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VHuoneenNroLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VHuoneenNroLB.Location = new Point(12, 150);
             VHuoneenNroLB.Name = "VHuoneenNroLB";
             VHuoneenNroLB.Size = new Size(204, 29);
@@ -207,7 +210,7 @@
             // VHuoneTyyppiLB
             // 
             VHuoneTyyppiLB.AutoSize = true;
-            VHuoneTyyppiLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VHuoneTyyppiLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VHuoneTyyppiLB.Location = new Point(12, 108);
             VHuoneTyyppiLB.Name = "VHuoneTyyppiLB";
             VHuoneTyyppiLB.Size = new Size(152, 29);
@@ -217,7 +220,7 @@
             // VAsiakaidenNroLB
             // 
             VAsiakaidenNroLB.AutoSize = true;
-            VAsiakaidenNroLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VAsiakaidenNroLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VAsiakaidenNroLB.Location = new Point(12, 66);
             VAsiakaidenNroLB.Name = "VAsiakaidenNroLB";
             VAsiakaidenNroLB.Size = new Size(189, 29);
@@ -226,7 +229,7 @@
             // 
             // VVarausNroTB
             // 
-            VVarausNroTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VVarausNroTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VVarausNroTB.Location = new Point(231, 14);
             VVarausNroTB.Name = "VVarausNroTB";
             VVarausNroTB.Size = new Size(318, 36);
@@ -246,7 +249,7 @@
             // VarausNroLB
             // 
             VarausNroLB.AutoSize = true;
-            VarausNroLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            VarausNroLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             VarausNroLB.Location = new Point(12, 21);
             VarausNroLB.Name = "VarausNroLB";
             VarausNroLB.Size = new Size(183, 29);
@@ -266,7 +269,7 @@
             // VaraustenHallintaLB
             // 
             VaraustenHallintaLB.AutoSize = true;
-            VaraustenHallintaLB.Font = new Font("Tahoma", 26F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            VaraustenHallintaLB.Font = new Font("Tahoma", 26F, FontStyle.Bold, GraphicsUnit.Point);
             VaraustenHallintaLB.ForeColor = Color.White;
             VaraustenHallintaLB.Location = new Point(379, 18);
             VaraustenHallintaLB.Name = "VaraustenHallintaLB";
@@ -283,6 +286,7 @@
             Controls.Add(YlaPanel);
             Name = "VaraustenHallintaFM";
             Text = "Varausten_Hallinta";
+            Load += VaraustenHallintaFM_Load;
             AlaPanel.ResumeLayout(false);
             AlaPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)VaraustenHallintaDG).EndInit();

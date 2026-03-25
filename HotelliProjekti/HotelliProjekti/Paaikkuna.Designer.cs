@@ -44,7 +44,6 @@
             // pictureBox1
             // 
             pictureBox1.Dock = DockStyle.Fill;
-            pictureBox1.Image = Properties.Resources.hotelimage;
             pictureBox1.Location = new Point(0, 33);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1250, 521);
@@ -56,7 +55,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(568, 130);
             label1.Name = "label1";
             label1.Size = new Size(134, 29);
@@ -66,7 +65,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(501, 182);
             label2.Name = "label2";
             label2.Size = new Size(284, 26);
@@ -78,7 +77,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Tahoma", 28F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Font = new Font("Tahoma", 28F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(472, 225);
             label3.Name = "label3";
             label3.Size = new Size(329, 68);
@@ -121,7 +120,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(438, 314);
             label4.Name = "label4";
             label4.Size = new Size(396, 58);

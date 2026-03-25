@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Data;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using Eramake;
+using System.Security.Cryptography;
 namespace HotelliProjekti
 {
     internal class Asiakas
     {
         Yhdista yhteys = new Yhdista();
-
+        
 
         public bool lisaaAsiakas(String enimi, String snimi, String osoite, String pnro, String ppaikka, String kayttaja, String ssana)
         {   
@@ -38,11 +38,11 @@ namespace HotelliProjekti
             }
             if(ssana != null)
             {
-                komento.Parameters.Add("@ssa", MySqlDbType.Int32).Value = eCryptography.Encrypt(ssana);
+                komento.Parameters.Add("@ssa", MySqlDbType.Int32).Value = ssana;
             }
             else
             {
-                komento.Parameters.Add("@ssa", MySqlDbType.VarChar).Value = eCryptography.Encrypt(luoSalasana());
+                komento.Parameters.Add("@ssa", MySqlDbType.VarChar).Value = luoSalasana();
                 MessageBox.Show(luoSalasana());
             }
 

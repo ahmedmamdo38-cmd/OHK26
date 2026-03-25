@@ -65,13 +65,22 @@ namespace HotelliProjekti
 
         public DataTable haeHuoneet()
         {
-            MySqlCommand komento = new MySqlCommand();
+            MySqlCommand komento = new MySqlCommand("Select * From huoneet", yhteys.otaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
-
             adapteri.SelectCommand = komento;
             adapteri.Fill(taulu);
+
+            //try
+            //{
+            //    yhteys.avaaYhteys();
+            //    adapteri.Fill(taulu);
+            //}
+            //finally
+            //{
+            //    yhteys.suljeYhteys();
+            //}
 
             return taulu;
         }
@@ -81,7 +90,7 @@ namespace HotelliProjekti
         {
             MySqlCommand komento = new MySqlCommand();
             String paivityskysely = "UPDATE `huoneet` SET `Huonetyyppi`= @hty," +
-                "`Puhelin`= @puh, `Vapaa`= @vap" +
+                "`Puhelin`= @puh, `Vapaa`= @vap " +
                 "WHERE HuoneenNro = @hno";
 
             komento.CommandText = paivityskysely;
@@ -129,6 +138,23 @@ namespace HotelliProjekti
                 yhteys.suljeYhteys();
                 return false;
             }
+        }
+
+        public DataTable tyypillisetHuoneet(int htype)
+        {
+            MySqlCommand komento = new MySqlCommand();
+            String lisakysely = "SELECT * from huoneet WHERE Huonetyyppi = @hty";
+            komento.CommandText = lisakysely;
+            komento.Connection = yhteys.otaYhteys();
+
+            komento.Parameters.Add("@hty", MySqlDbType.Int32).Value = htype;
+            MySqlDataAdapter adapteri = new MySqlDataAdapter();
+            DataTable taulu = new DataTable();
+
+            adapteri.SelectCommand = komento;
+            adapteri.Fill(taulu);
+            return taulu;
+
         }
     }
 }

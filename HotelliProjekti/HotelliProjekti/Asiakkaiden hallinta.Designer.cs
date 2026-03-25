@@ -326,7 +326,7 @@
         private DataGridView AsiakaidenHallintaDG;
         private Label ASukunimiLB;
         private TextBox AEtunimiTB;
-        private Label label1;
+        //private Label label1;
         private Label ASalasanaLB;
         private Label AKäyttäjätunnusLB;
         private Label APostitoimipaikkaLB;

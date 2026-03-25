@@ -16,7 +16,7 @@
         private void Huoneiden_Hallinta_Load(object sender, EventArgs e)
         {
             HHuonetyyppiCB.DataSource = huone.huonetyyppilista();
-            HHuonetyyppiCB.DisplayMember = "Huonetyyppi";
+            HHuonetyyppiCB.DisplayMember = "Huoneentyyppi";
             HHuonetyyppiCB.ValueMember = "KategoriaId";
 
             HuoneidenHallintaDG.DataSource = huone.haeHuoneet();
