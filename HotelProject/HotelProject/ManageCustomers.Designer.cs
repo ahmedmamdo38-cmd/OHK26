@@ -37,7 +37,7 @@
             CustomerUserNameTB = new TextBox();
             CustomerPostOfficeTB = new TextBox();
             CustomerPostalcodeTB = new TextBox();
-            CostomerSurnameTB = new TextBox();
+            CustomerSurnameTB = new TextBox();
             CustomerAddressTB = new TextBox();
             CustomerPasswordLB = new Label();
             CustomerUserNameLB = new Label();
@@ -66,7 +66,7 @@
             AlaPanel.Controls.Add(CustomerUserNameTB);
             AlaPanel.Controls.Add(CustomerPostOfficeTB);
             AlaPanel.Controls.Add(CustomerPostalcodeTB);
-            AlaPanel.Controls.Add(CostomerSurnameTB);
+            AlaPanel.Controls.Add(CustomerSurnameTB);
             AlaPanel.Controls.Add(CustomerAddressTB);
             AlaPanel.Controls.Add(CustomerPasswordLB);
             AlaPanel.Controls.Add(CustomerUserNameLB);
@@ -95,6 +95,7 @@
             CustomerClearFieldsBT.TabIndex = 18;
             CustomerClearFieldsBT.Text = "Clear fields";
             CustomerClearFieldsBT.UseVisualStyleBackColor = false;
+            CustomerClearFieldsBT.Click += CustomerClearFieldsBT_Click;
             // 
             // CustomerRemoveBT
             // 
@@ -134,6 +135,7 @@
             CustomerAddBT.TabIndex = 15;
             CustomerAddBT.Text = "Add new customer";
             CustomerAddBT.UseVisualStyleBackColor = false;
+            CustomerAddBT.Click += CustomerAddBT_Click;
             // 
             // CustomerPasswordTB
             // 
@@ -167,13 +169,13 @@
             CustomerPostalcodeTB.Size = new Size(318, 36);
             CustomerPostalcodeTB.TabIndex = 11;
             // 
-            // CostomerSurnameTB
+            // CustomerSurnameTB
             // 
-            CostomerSurnameTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CostomerSurnameTB.Location = new Point(231, 59);
-            CostomerSurnameTB.Name = "CostomerSurnameTB";
-            CostomerSurnameTB.Size = new Size(318, 36);
-            CostomerSurnameTB.TabIndex = 10;
+            CustomerSurnameTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerSurnameTB.Location = new Point(231, 59);
+            CustomerSurnameTB.Name = "CustomerSurnameTB";
+            CustomerSurnameTB.Size = new Size(318, 36);
+            CustomerSurnameTB.TabIndex = 10;
             // 
             // CustomerAddressTB
             // 
@@ -321,7 +323,7 @@
         private TextBox CustomerUserNameTB;
         private TextBox CustomerPostOfficeTB;
         private TextBox CustomerPostalcodeTB;
-        private TextBox CostomerSurnameTB;
+        private TextBox CustomerSurnameTB;
         private TextBox CustomerAddressTB;
         private Label CustomerPasswordLB;
         private Label CustomerUserNameLB;

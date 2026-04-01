@@ -16,5 +16,26 @@ namespace HotelProject
         {
             InitializeComponent();
         }
+
+        private void manageCustomersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ManageCustomers customers = new ManageCustomers();
+            customers.ShowDialog();
+            this.Hide();
+        }
+
+        private void manageRoomsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RoomManagement rooms = new RoomManagement();
+            rooms.ShowDialog();
+            this.Hide();
+        }
+
+        private void manageReseversationsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ManageReseversation reseversation = new ManageReseversation();
+            reseversation.ShowDialog();
+            this.Hide();
+        }
     }
 }

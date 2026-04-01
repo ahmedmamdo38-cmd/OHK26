@@ -94,18 +94,21 @@
             manageCustomersToolStripMenuItem.Name = "manageCustomersToolStripMenuItem";
             manageCustomersToolStripMenuItem.Size = new Size(182, 29);
             manageCustomersToolStripMenuItem.Text = "Manage Customers";
+            manageCustomersToolStripMenuItem.Click += manageCustomersToolStripMenuItem_Click;
             // 
             // manageRoomsToolStripMenuItem
             // 
             manageRoomsToolStripMenuItem.Name = "manageRoomsToolStripMenuItem";
             manageRoomsToolStripMenuItem.Size = new Size(153, 29);
             manageRoomsToolStripMenuItem.Text = "Manage Rooms";
+            manageRoomsToolStripMenuItem.Click += manageRoomsToolStripMenuItem_Click;
             // 
             // manageReseversationsToolStripMenuItem
             // 
             manageReseversationsToolStripMenuItem.Name = "manageReseversationsToolStripMenuItem";
             manageReseversationsToolStripMenuItem.Size = new Size(213, 29);
             manageReseversationsToolStripMenuItem.Text = "Manage Reseversations";
+            manageReseversationsToolStripMenuItem.Click += manageReseversationsToolStripMenuItem_Click;
             // 
             // HomePage
             // 

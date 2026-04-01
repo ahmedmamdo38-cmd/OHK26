@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ErrorMessage1BT = new Label();
-            ErrorMessage0BT = new Label();
+            ErrorMessage1LB = new Label();
+            ErrorMessage0LB = new Label();
             LogInBT = new Button();
             PasswordTB = new TextBox();
             label3 = new Label();
@@ -38,27 +38,27 @@
             label1 = new Label();
             SuspendLayout();
             // 
-            // ErrorMessage1BT
+            // ErrorMessage1LB
             // 
-            ErrorMessage1BT.AutoSize = true;
-            ErrorMessage1BT.ForeColor = Color.Red;
-            ErrorMessage1BT.Location = new Point(24, 358);
-            ErrorMessage1BT.Name = "ErrorMessage1BT";
-            ErrorMessage1BT.Size = new Size(281, 25);
-            ErrorMessage1BT.TabIndex = 24;
-            ErrorMessage1BT.Text = " Something went wrong, try again";
-            ErrorMessage1BT.Visible = false;
+            ErrorMessage1LB.AutoSize = true;
+            ErrorMessage1LB.ForeColor = Color.Red;
+            ErrorMessage1LB.Location = new Point(24, 358);
+            ErrorMessage1LB.Name = "ErrorMessage1LB";
+            ErrorMessage1LB.Size = new Size(281, 25);
+            ErrorMessage1LB.TabIndex = 24;
+            ErrorMessage1LB.Text = " Something went wrong, try again";
+            ErrorMessage1LB.Visible = false;
             // 
-            // ErrorMessage0BT
+            // ErrorMessage0LB
             // 
-            ErrorMessage0BT.AutoSize = true;
-            ErrorMessage0BT.ForeColor = Color.Red;
-            ErrorMessage0BT.Location = new Point(24, 223);
-            ErrorMessage0BT.Name = "ErrorMessage0BT";
-            ErrorMessage0BT.Size = new Size(276, 25);
-            ErrorMessage0BT.TabIndex = 23;
-            ErrorMessage0BT.Text = "Something went wrong, try again";
-            ErrorMessage0BT.Visible = false;
+            ErrorMessage0LB.AutoSize = true;
+            ErrorMessage0LB.ForeColor = Color.Red;
+            ErrorMessage0LB.Location = new Point(24, 223);
+            ErrorMessage0LB.Name = "ErrorMessage0LB";
+            ErrorMessage0LB.Size = new Size(276, 25);
+            ErrorMessage0LB.TabIndex = 23;
+            ErrorMessage0LB.Text = "Something went wrong, try again";
+            ErrorMessage0LB.Visible = false;
             // 
             // LogInBT
             // 
@@ -108,9 +108,9 @@
             label2.ForeColor = Color.Black;
             label2.Location = new Point(24, 131);
             label2.Name = "label2";
-            label2.Size = new Size(150, 34);
+            label2.Size = new Size(141, 34);
             label2.TabIndex = 18;
-            label2.Text = "User name";
+            label2.Text = "Username";
             // 
             // label1
             // 
@@ -128,8 +128,8 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(416, 543);
-            Controls.Add(ErrorMessage1BT);
-            Controls.Add(ErrorMessage0BT);
+            Controls.Add(ErrorMessage1LB);
+            Controls.Add(ErrorMessage0LB);
             Controls.Add(LogInBT);
             Controls.Add(PasswordTB);
             Controls.Add(label3);
@@ -144,8 +144,8 @@
 
         #endregion
 
-        private Label ErrorMessage1BT;
-        private Label ErrorMessage0BT;
+        private Label ErrorMessage1LB;
+        private Label ErrorMessage0LB;
         private Button LogInBT;
         private TextBox PasswordTB;
         private Label label3;
