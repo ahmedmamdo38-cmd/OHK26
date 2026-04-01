@@ -109,6 +109,7 @@
             CustomerRemoveBT.TabIndex = 17;
             CustomerRemoveBT.Text = "Remove";
             CustomerRemoveBT.UseVisualStyleBackColor = false;
+            CustomerRemoveBT.Click += CustomerRemoveBT_Click;
             // 
             // CustomerEditBT
             // 
@@ -122,6 +123,7 @@
             CustomerEditBT.TabIndex = 16;
             CustomerEditBT.Text = "Edit customer\r\n";
             CustomerEditBT.UseVisualStyleBackColor = false;
+            CustomerEditBT.Click += CustomerEditBT_Click;
             // 
             // CustomerAddBT
             // 

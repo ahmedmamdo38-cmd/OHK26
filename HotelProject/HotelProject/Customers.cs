@@ -13,7 +13,7 @@ namespace HotelProject
         ConnectWithMySQL connect = new ConnectWithMySQL();
 
 
-        public bool addCustomer(String firstname, String surname, String address, String postalcode, String postoffice, String username, String password)
+        public bool lisaaAsiakas(String firstname, String surname, String address, String postalcode, String postoffice, String username, String password)
         {
             MySqlCommand komento = new MySqlCommand();
             String lisakysely = "INSERT INTO customers" +
