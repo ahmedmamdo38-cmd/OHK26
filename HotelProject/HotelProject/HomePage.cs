@@ -19,7 +19,7 @@ namespace HotelProject
 
         private void manageCustomersToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ManageCustomers customers = new ManageCustomers();
+            ManageCustomer1 customers = new ManageCustomer1();
             customers.ShowDialog();
             this.Hide();
         }

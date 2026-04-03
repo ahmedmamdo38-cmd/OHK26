@@ -1,6 +1,6 @@
 ﻿namespace HotelProject
 {
-    partial class ManageCustomers
+    partial class ManageCustomer1
     {
         /// <summary>
         /// Required designer variable.
@@ -34,20 +34,20 @@
             CustomerEditBT = new Button();
             CustomerAddBT = new Button();
             CustomerPasswordTB = new TextBox();
-            CustomerUserNameTB = new TextBox();
+            CustomerUsernameTB = new TextBox();
             CustomerPostOfficeTB = new TextBox();
-            CustomerPostalcodeTB = new TextBox();
+            CustomerPostalCodeTB = new TextBox();
             CustomerSurnameTB = new TextBox();
             CustomerAddressTB = new TextBox();
             CustomerPasswordLB = new Label();
-            CustomerUserNameLB = new Label();
+            CustomerUsernameLB = new Label();
             CustomerPostOfficeLB = new Label();
-            CustomerPostalcodeLB = new Label();
+            CustomerPostalCodeLB = new Label();
             CustomerAddressLB = new Label();
-            CMSecondnameLB = new Label();
-            CustomerNameTB = new TextBox();
+            CustomerSurnameLB = new Label();
+            CustomerFirstnameTB = new TextBox();
             CustomerManagementDG = new DataGridView();
-            CustomerFirstNameLB = new Label();
+            CustomerFirstnameLB = new Label();
             YlaPanel = new Panel();
             CustomerManagementLB = new Label();
             AlaPanel.SuspendLayout();
@@ -63,24 +63,24 @@
             AlaPanel.Controls.Add(CustomerEditBT);
             AlaPanel.Controls.Add(CustomerAddBT);
             AlaPanel.Controls.Add(CustomerPasswordTB);
-            AlaPanel.Controls.Add(CustomerUserNameTB);
+            AlaPanel.Controls.Add(CustomerUsernameTB);
             AlaPanel.Controls.Add(CustomerPostOfficeTB);
-            AlaPanel.Controls.Add(CustomerPostalcodeTB);
+            AlaPanel.Controls.Add(CustomerPostalCodeTB);
             AlaPanel.Controls.Add(CustomerSurnameTB);
             AlaPanel.Controls.Add(CustomerAddressTB);
             AlaPanel.Controls.Add(CustomerPasswordLB);
-            AlaPanel.Controls.Add(CustomerUserNameLB);
+            AlaPanel.Controls.Add(CustomerUsernameLB);
             AlaPanel.Controls.Add(CustomerPostOfficeLB);
-            AlaPanel.Controls.Add(CustomerPostalcodeLB);
+            AlaPanel.Controls.Add(CustomerPostalCodeLB);
             AlaPanel.Controls.Add(CustomerAddressLB);
-            AlaPanel.Controls.Add(CMSecondnameLB);
-            AlaPanel.Controls.Add(CustomerNameTB);
+            AlaPanel.Controls.Add(CustomerSurnameLB);
+            AlaPanel.Controls.Add(CustomerFirstnameTB);
             AlaPanel.Controls.Add(CustomerManagementDG);
-            AlaPanel.Controls.Add(CustomerFirstNameLB);
+            AlaPanel.Controls.Add(CustomerFirstnameLB);
             AlaPanel.Dock = DockStyle.Fill;
             AlaPanel.Location = new Point(0, 98);
             AlaPanel.Name = "AlaPanel";
-            AlaPanel.Size = new Size(1389, 463);
+            AlaPanel.Size = new Size(1386, 465);
             AlaPanel.TabIndex = 3;
             // 
             // CustomerClearFieldsBT
@@ -93,9 +93,8 @@
             CustomerClearFieldsBT.Name = "CustomerClearFieldsBT";
             CustomerClearFieldsBT.Size = new Size(222, 42);
             CustomerClearFieldsBT.TabIndex = 18;
-            CustomerClearFieldsBT.Text = "Clear fields";
+            CustomerClearFieldsBT.Text = "Clear Field";
             CustomerClearFieldsBT.UseVisualStyleBackColor = false;
-            CustomerClearFieldsBT.Click += CustomerClearFieldsBT_Click;
             // 
             // CustomerRemoveBT
             // 
@@ -109,7 +108,6 @@
             CustomerRemoveBT.TabIndex = 17;
             CustomerRemoveBT.Text = "Remove";
             CustomerRemoveBT.UseVisualStyleBackColor = false;
-            CustomerRemoveBT.Click += CustomerRemoveBT_Click;
             // 
             // CustomerEditBT
             // 
@@ -121,9 +119,8 @@
             CustomerEditBT.Name = "CustomerEditBT";
             CustomerEditBT.Size = new Size(222, 42);
             CustomerEditBT.TabIndex = 16;
-            CustomerEditBT.Text = "Edit customer\r\n";
+            CustomerEditBT.Text = "Edit\r\n";
             CustomerEditBT.UseVisualStyleBackColor = false;
-            CustomerEditBT.Click += CustomerEditBT_Click;
             // 
             // CustomerAddBT
             // 
@@ -135,9 +132,8 @@
             CustomerAddBT.Name = "CustomerAddBT";
             CustomerAddBT.Size = new Size(251, 42);
             CustomerAddBT.TabIndex = 15;
-            CustomerAddBT.Text = "Add new customer";
+            CustomerAddBT.Text = "Add Customer";
             CustomerAddBT.UseVisualStyleBackColor = false;
-            CustomerAddBT.Click += CustomerAddBT_Click;
             // 
             // CustomerPasswordTB
             // 
@@ -147,13 +143,13 @@
             CustomerPasswordTB.Size = new Size(318, 36);
             CustomerPasswordTB.TabIndex = 14;
             // 
-            // CustomerUserNameTB
+            // CustomerUsernameTB
             // 
-            CustomerUserNameTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CustomerUserNameTB.Location = new Point(231, 227);
-            CustomerUserNameTB.Name = "CustomerUserNameTB";
-            CustomerUserNameTB.Size = new Size(318, 36);
-            CustomerUserNameTB.TabIndex = 13;
+            CustomerUsernameTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerUsernameTB.Location = new Point(231, 227);
+            CustomerUsernameTB.Name = "CustomerUsernameTB";
+            CustomerUsernameTB.Size = new Size(318, 36);
+            CustomerUsernameTB.TabIndex = 13;
             // 
             // CustomerPostOfficeTB
             // 
@@ -163,13 +159,13 @@
             CustomerPostOfficeTB.Size = new Size(318, 36);
             CustomerPostOfficeTB.TabIndex = 12;
             // 
-            // CustomerPostalcodeTB
+            // CustomerPostalCodeTB
             // 
-            CustomerPostalcodeTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CustomerPostalcodeTB.Location = new Point(231, 143);
-            CustomerPostalcodeTB.Name = "CustomerPostalcodeTB";
-            CustomerPostalcodeTB.Size = new Size(318, 36);
-            CustomerPostalcodeTB.TabIndex = 11;
+            CustomerPostalCodeTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerPostalCodeTB.Location = new Point(231, 143);
+            CustomerPostalCodeTB.Name = "CustomerPostalCodeTB";
+            CustomerPostalCodeTB.Size = new Size(318, 36);
+            CustomerPostalCodeTB.TabIndex = 11;
             // 
             // CustomerSurnameTB
             // 
@@ -197,15 +193,15 @@
             CustomerPasswordLB.TabIndex = 8;
             CustomerPasswordLB.Text = "Password:";
             // 
-            // CustomerUserNameLB
+            // CustomerUsernameLB
             // 
-            CustomerUserNameLB.AutoSize = true;
-            CustomerUserNameLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CustomerUserNameLB.Location = new Point(12, 234);
-            CustomerUserNameLB.Name = "CustomerUserNameLB";
-            CustomerUserNameLB.Size = new Size(129, 29);
-            CustomerUserNameLB.TabIndex = 7;
-            CustomerUserNameLB.Text = "Username:";
+            CustomerUsernameLB.AutoSize = true;
+            CustomerUsernameLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerUsernameLB.Location = new Point(12, 234);
+            CustomerUsernameLB.Name = "CustomerUsernameLB";
+            CustomerUsernameLB.Size = new Size(129, 29);
+            CustomerUsernameLB.TabIndex = 7;
+            CustomerUsernameLB.Text = "Username:\r\n";
             // 
             // CustomerPostOfficeLB
             // 
@@ -213,19 +209,19 @@
             CustomerPostOfficeLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
             CustomerPostOfficeLB.Location = new Point(12, 192);
             CustomerPostOfficeLB.Name = "CustomerPostOfficeLB";
-            CustomerPostOfficeLB.Size = new Size(136, 29);
+            CustomerPostOfficeLB.Size = new Size(124, 29);
             CustomerPostOfficeLB.TabIndex = 6;
-            CustomerPostOfficeLB.Text = "Post Office:";
+            CustomerPostOfficeLB.Text = "Postoffice:";
             // 
-            // CustomerPostalcodeLB
+            // CustomerPostalCodeLB
             // 
-            CustomerPostalcodeLB.AutoSize = true;
-            CustomerPostalcodeLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CustomerPostalcodeLB.Location = new Point(12, 150);
-            CustomerPostalcodeLB.Name = "CustomerPostalcodeLB";
-            CustomerPostalcodeLB.Size = new Size(134, 29);
-            CustomerPostalcodeLB.TabIndex = 5;
-            CustomerPostalcodeLB.Text = "Postalcode:";
+            CustomerPostalCodeLB.AutoSize = true;
+            CustomerPostalCodeLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerPostalCodeLB.Location = new Point(12, 150);
+            CustomerPostalCodeLB.Name = "CustomerPostalCodeLB";
+            CustomerPostalCodeLB.Size = new Size(137, 29);
+            CustomerPostalCodeLB.TabIndex = 5;
+            CustomerPostalCodeLB.Text = "PostalCode:";
             // 
             // CustomerAddressLB
             // 
@@ -237,44 +233,44 @@
             CustomerAddressLB.TabIndex = 4;
             CustomerAddressLB.Text = "Address:";
             // 
-            // CMSecondnameLB
+            // CustomerSurnameLB
             // 
-            CMSecondnameLB.AutoSize = true;
-            CMSecondnameLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CMSecondnameLB.Location = new Point(12, 66);
-            CMSecondnameLB.Name = "CMSecondnameLB";
-            CMSecondnameLB.Size = new Size(115, 29);
-            CMSecondnameLB.TabIndex = 3;
-            CMSecondnameLB.Text = "Surname:";
+            CustomerSurnameLB.AutoSize = true;
+            CustomerSurnameLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerSurnameLB.Location = new Point(12, 66);
+            CustomerSurnameLB.Name = "CustomerSurnameLB";
+            CustomerSurnameLB.Size = new Size(115, 29);
+            CustomerSurnameLB.TabIndex = 3;
+            CustomerSurnameLB.Text = "Surname:";
             // 
-            // CustomerNameTB
+            // CustomerFirstnameTB
             // 
-            CustomerNameTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CustomerNameTB.Location = new Point(231, 14);
-            CustomerNameTB.Name = "CustomerNameTB";
-            CustomerNameTB.Size = new Size(318, 36);
-            CustomerNameTB.TabIndex = 2;
+            CustomerFirstnameTB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerFirstnameTB.Location = new Point(231, 14);
+            CustomerFirstnameTB.Name = "CustomerFirstnameTB";
+            CustomerFirstnameTB.Size = new Size(318, 36);
+            CustomerFirstnameTB.TabIndex = 2;
             // 
             // CustomerManagementDG
             // 
             CustomerManagementDG.BackgroundColor = Color.WhiteSmoke;
             CustomerManagementDG.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             CustomerManagementDG.Dock = DockStyle.Right;
-            CustomerManagementDG.Location = new Point(738, 0);
+            CustomerManagementDG.Location = new Point(735, 0);
             CustomerManagementDG.Name = "CustomerManagementDG";
             CustomerManagementDG.RowHeadersWidth = 62;
-            CustomerManagementDG.Size = new Size(651, 463);
+            CustomerManagementDG.Size = new Size(651, 465);
             CustomerManagementDG.TabIndex = 1;
             // 
-            // CustomerFirstNameLB
+            // CustomerFirstnameLB
             // 
-            CustomerFirstNameLB.AutoSize = true;
-            CustomerFirstNameLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            CustomerFirstNameLB.Location = new Point(12, 21);
-            CustomerFirstNameLB.Name = "CustomerFirstNameLB";
-            CustomerFirstNameLB.Size = new Size(126, 29);
-            CustomerFirstNameLB.TabIndex = 0;
-            CustomerFirstNameLB.Text = "Firstname:";
+            CustomerFirstnameLB.AutoSize = true;
+            CustomerFirstnameLB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            CustomerFirstnameLB.Location = new Point(12, 21);
+            CustomerFirstnameLB.Name = "CustomerFirstnameLB";
+            CustomerFirstnameLB.Size = new Size(126, 29);
+            CustomerFirstnameLB.TabIndex = 0;
+            CustomerFirstnameLB.Text = "Firstname:";
             // 
             // YlaPanel
             // 
@@ -283,7 +279,7 @@
             YlaPanel.Dock = DockStyle.Top;
             YlaPanel.Location = new Point(0, 0);
             YlaPanel.Name = "YlaPanel";
-            YlaPanel.Size = new Size(1389, 98);
+            YlaPanel.Size = new Size(1386, 98);
             YlaPanel.TabIndex = 2;
             // 
             // CustomerManagementLB
@@ -291,21 +287,22 @@
             CustomerManagementLB.AutoSize = true;
             CustomerManagementLB.Font = new Font("Tahoma", 26F, FontStyle.Bold, GraphicsUnit.Point);
             CustomerManagementLB.ForeColor = Color.White;
-            CustomerManagementLB.Location = new Point(389, 9);
+            CustomerManagementLB.Location = new Point(379, 18);
             CustomerManagementLB.Name = "CustomerManagementLB";
             CustomerManagementLB.Size = new Size(636, 63);
             CustomerManagementLB.TabIndex = 0;
             CustomerManagementLB.Text = "Customer Management";
             // 
-            // ManageCustomers
+            // ManageCustomer1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1389, 561);
+            ClientSize = new Size(1386, 563);
             Controls.Add(AlaPanel);
             Controls.Add(YlaPanel);
-            Name = "ManageCustomers";
-            Text = "ManageCustomers";
+            Name = "ManageCustomer1";
+            Text = "ManageCustomer1";
+            Load += ManageCustomer1_Load;
             AlaPanel.ResumeLayout(false);
             AlaPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)CustomerManagementDG).EndInit();
@@ -322,20 +319,20 @@
         private Button CustomerEditBT;
         private Button CustomerAddBT;
         private TextBox CustomerPasswordTB;
-        private TextBox CustomerUserNameTB;
+        private TextBox CustomerUsernameTB;
         private TextBox CustomerPostOfficeTB;
-        private TextBox CustomerPostalcodeTB;
+        private TextBox CustomerPostalCodeTB;
         private TextBox CustomerSurnameTB;
         private TextBox CustomerAddressTB;
         private Label CustomerPasswordLB;
-        private Label CustomerUserNameLB;
+        private Label CustomerUsernameLB;
         private Label CustomerPostOfficeLB;
-        private Label CustomerPostalcodeLB;
+        private Label CustomerPostalCodeLB;
         private Label CustomerAddressLB;
-        private Label CMSecondnameLB;
-        private TextBox CustomerNameTB;
+        private Label CustomerSurnameLB;
+        private TextBox CustomerFirstnameTB;
         private DataGridView CustomerManagementDG;
-        private Label CustomerFirstNameLB;
+        private Label CustomerFirstnameLB;
         private Panel YlaPanel;
         private Label CustomerManagementLB;
     }

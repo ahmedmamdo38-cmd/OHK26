@@ -7,27 +7,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
+using  MySql.Data.MySqlClient;
 
 namespace HotelProject
 {
-
-    public partial class ManageCustomers : Form
+    
+    public partial class ManageCustomer1 : Form
     {
+        ConnectWithMySQL connect = new ConnectWithMySQL();
         Customers customer = new Customers();
-        public ManageCustomers()
+        public ManageCustomer1()
         {
             InitializeComponent();
         }
 
+        private void ManageCustomer1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void CustomerAddBT_Click(object sender, EventArgs e)
         {
-            String firstname = CustomerNameTB.Text;
+            String firstname = CustomerFirstnameTB.Text;
             String surname = CustomerSurnameTB.Text;
             String address = CustomerAddressTB.Text;
-            String postalcode = CustomerPostalcodeTB.Text;
+            String postalcode = CustomerPostalCodeTB.Text;
             String postoffice = CustomerPostOfficeTB.Text;
-            String username = CustomerUserNameTB.Text;
+            String username = CustomerUsernameTB.Text;
             String password = CustomerPasswordTB.Text;
 
 
@@ -52,36 +58,34 @@ namespace HotelProject
 
         }
 
-        private void CustomerManagementDG_Load(object sender, EventArgs e)
-        {
-            CustomerManagementDG.DataSource = customer.haeAsiakkaat();
-        }
+        // private void CustomerManagementDG_Load(object sender, EventArgs e)
+        //{ }
 
         private void CustomerClearFieldsBT_Click(object sender, EventArgs e)
         {
-            CustomerNameTB.Text = "";
+            CustomerFirstnameTB.Text = "";
             CustomerSurnameTB.Text = "";
             CustomerAddressTB.Text = "";
-            CustomerPostalcodeTB.Text = "";
+            CustomerPostalCodeTB.Text = "";
             CustomerPostOfficeTB.Text = "";
-            CustomerUserNameTB.Text = "";
+            CustomerUsernameTB.Text = "";
             CustomerPasswordTB.Text = "";
         }
 
         private void CustomerManagementDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            CustomerUserNameTB.Text = CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
+            CustomerFirstnameTB.Text = CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
             CustomerSurnameTB.Text = CustomerManagementDG.CurrentRow.Cells[1].Value.ToString();
             CustomerAddressTB.Text = CustomerManagementDG.CurrentRow.Cells[2].Value.ToString();
-            CustomerPostalcodeTB.Text = CustomerManagementDG.CurrentRow.Cells[3].Value.ToString();
+            CustomerPostalCodeTB.Text = CustomerManagementDG.CurrentRow.Cells[3].Value.ToString();
             CustomerPostOfficeTB.Text = CustomerManagementDG.CurrentRow.Cells[4].Value.ToString();
-            CustomerUserNameTB.Text = CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
+            CustomerUsernameTB.Text = CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
             CustomerPasswordTB.Text = CustomerManagementDG.CurrentRow.Cells[6].Value.ToString();
         }
 
         private void CustomerRemoveBT_Click(object sender, EventArgs e)
         {
-            String customerid = CustomerUserNameTB.Text;
+            String customerid = CustomerUsernameTB.Text;
 
 
             if (customer.poistaAsiakas(customerid))
@@ -100,15 +104,15 @@ namespace HotelProject
 
         private void CustomerEditBT_Click(object sender, EventArgs e)
         {
-            String firstname = CustomerFirstNameLB.Text;
+            String firstname = CustomerFirstnameTB.Text;
             String surname = CustomerSurnameTB.Text;
             String address = CustomerAddressTB.Text;
-            String postalcode = CustomerPostalcodeTB.Text;
+            String postalcode = CustomerPostalCodeTB.Text;
             String postoffice = CustomerPostOfficeTB.Text;
-            String username = CustomerUserNameTB.Text;
+            String username = CustomerUsernameTB.Text;
             String password = CustomerPasswordTB.Text;
 
-            if(firstname.Equals("") || surname.Equals("") || address.Equals("") || postalcode.Equals("") || postoffice.Equals("") || username.Equals("") || password.Equals(""))
+            if (firstname.Equals("") || surname.Equals("") || address.Equals("") || postalcode.Equals("") || postoffice.Equals("") || username.Equals("") || password.Equals(""))
             {
                 MessageBox.Show("Error!!! Required fields-Firstname, Surname, Street address, postalcode, postoffice, username and password");
             }

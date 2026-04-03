@@ -1,7 +1,6 @@
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.csproj.AssemblyReference.cache
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.HomePage.resources
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.LogIN.resources
-C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.ManageCustomers.resources
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.ManageReseversation.resources
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.RoomManagement.resources
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.csproj.GenerateResource.cache
@@ -39,3 +38,4 @@ C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.pdb
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.genruntimeconfig.cache
 C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\ref\HotelProject.dll
+C:\Users\ahmed\source2\OHK26\HotelProject\HotelProject\obj\Debug\net6.0-windows\HotelProject.ManageCustomer1.resources
