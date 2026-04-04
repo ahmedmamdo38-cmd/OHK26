@@ -134,6 +134,8 @@
             CustomerAddBT.TabIndex = 15;
             CustomerAddBT.Text = "Add Customer";
             CustomerAddBT.UseVisualStyleBackColor = false;
+            CustomerAddBT.Click += CustomerAddBT_Click;
+            CustomerAddBT.Click += CustomerAddBT_Click_1;
             // 
             // CustomerPasswordTB
             // 

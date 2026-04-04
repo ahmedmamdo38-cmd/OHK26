@@ -1,17 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using  MySql.Data.MySqlClient;
-
-namespace HotelProject
+﻿namespace HotelProject
 {
-    
+
     public partial class ManageCustomer1 : Form
     {
         ConnectWithMySQL connect = new ConnectWithMySQL();
@@ -129,6 +118,11 @@ namespace HotelProject
                 }
                 CustomerManagementDG.DataSource = customer.haeAsiakkaat();
             }
+        }
+
+        private void CustomerAddBT_Click_1(object sender, EventArgs e)
+        {
+            //By misstake i press this function 
         }
     }
 }
