@@ -31,6 +31,7 @@
             AlaPanel = new Panel();
             RCheckOutHotelDTP = new DateTimePicker();
             RCheckIntoHotelDTP = new DateTimePicker();
+            RRooomNumberCB = new ComboBox();
             RRoomTypeCB = new ComboBox();
             RCustomerNumberCB = new ComboBox();
             ResevertionClearFieldBT = new Button();
@@ -47,7 +48,6 @@
             ResevertionNumberLB = new Label();
             YlaPanel = new Panel();
             ResevertionManagmentLB = new Label();
-            RRooomNumberCB = new ComboBox();
             AlaPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ResevertionManagementDG).BeginInit();
             YlaPanel.SuspendLayout();
@@ -95,6 +95,15 @@
             RCheckIntoHotelDTP.Size = new Size(318, 36);
             RCheckIntoHotelDTP.TabIndex = 22;
             // 
+            // RRooomNumberCB
+            // 
+            RRooomNumberCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            RRooomNumberCB.FormattingEnabled = true;
+            RRooomNumberCB.Location = new Point(256, 151);
+            RRooomNumberCB.Name = "RRooomNumberCB";
+            RRooomNumberCB.Size = new Size(318, 37);
+            RRooomNumberCB.TabIndex = 21;
+            // 
             // RRoomTypeCB
             // 
             RRoomTypeCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
@@ -103,6 +112,7 @@
             RRoomTypeCB.Name = "RRoomTypeCB";
             RRoomTypeCB.Size = new Size(318, 37);
             RRoomTypeCB.TabIndex = 20;
+            RRoomTypeCB.SelectedIndexChanged += RRoomTypeCB_SelectedIndexChanged;
             // 
             // RCustomerNumberCB
             // 
@@ -165,6 +175,7 @@
             ResevertionAddBT.TabIndex = 15;
             ResevertionAddBT.Text = "Add new resevertion\r\n";
             ResevertionAddBT.UseVisualStyleBackColor = false;
+            ResevertionAddBT.Click += ResevertionAddBT_Click;
             // 
             // RCheckOutHotelLb
             // 
@@ -265,15 +276,6 @@
             ResevertionManagmentLB.Size = new Size(697, 63);
             ResevertionManagmentLB.TabIndex = 0;
             ResevertionManagmentLB.Text = "Resevertion Management";
-            // 
-            // RRooomNumberCB
-            // 
-            RRooomNumberCB.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            RRooomNumberCB.FormattingEnabled = true;
-            RRooomNumberCB.Location = new Point(256, 151);
-            RRooomNumberCB.Name = "RRooomNumberCB";
-            RRooomNumberCB.Size = new Size(318, 37);
-            RRooomNumberCB.TabIndex = 21;
             // 
             // ManageReseversation
             // 

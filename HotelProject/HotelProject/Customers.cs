@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Data;
 
+
 namespace HotelProject
 {
     internal class Customers
@@ -33,6 +34,7 @@ namespace HotelProject
             komento.Parameters.Add("pwd", MySqlDbType.VarChar).Value = password;
 
 
+
             connect.avaaYhteys();
             if (komento.ExecuteNonQuery() == 1)
             {
@@ -54,7 +56,9 @@ namespace HotelProject
             DataTable taulu = new DataTable();
 
             adapteri.SelectCommand = komento;
+            connect.avaaYhteys();
             adapteri.Fill(taulu);
+            connect.suljeYhteys();
 
             return taulu;
         }

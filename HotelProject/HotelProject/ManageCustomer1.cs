@@ -1,4 +1,5 @@
-﻿namespace HotelProject
+﻿
+namespace HotelProject
 {
 
     public partial class ManageCustomer1 : Form
@@ -63,13 +64,13 @@
 
         private void CustomerManagementDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            CustomerFirstnameTB.Text = CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
-            CustomerSurnameTB.Text = CustomerManagementDG.CurrentRow.Cells[1].Value.ToString();
-            CustomerAddressTB.Text = CustomerManagementDG.CurrentRow.Cells[2].Value.ToString();
+            CustomerFirstnameTB.Text =  CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
+            CustomerSurnameTB.Text =    CustomerManagementDG.CurrentRow.Cells[1].Value.ToString();
+            CustomerAddressTB.Text =    CustomerManagementDG.CurrentRow.Cells[2].Value.ToString();
             CustomerPostalCodeTB.Text = CustomerManagementDG.CurrentRow.Cells[3].Value.ToString();
             CustomerPostOfficeTB.Text = CustomerManagementDG.CurrentRow.Cells[4].Value.ToString();
-            CustomerUsernameTB.Text = CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
-            CustomerPasswordTB.Text = CustomerManagementDG.CurrentRow.Cells[6].Value.ToString();
+            CustomerUsernameTB.Text =   CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
+            CustomerPasswordTB.Text =   CustomerManagementDG.CurrentRow.Cells[6].Value.ToString();
         }
 
         private void CustomerRemoveBT_Click(object sender, EventArgs e)

@@ -58,12 +58,14 @@ namespace HotelProject
 
         public DataTable haeHuoneet()
         {
-            MySqlCommand komento = new MySqlCommand();
+            MySqlCommand komento = new MySqlCommand("SELECT * FROM rooms", connect.otaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
             adapteri.SelectCommand = komento;
+            connect.avaaYhteys();
             adapteri.Fill(taulu);
+            connect.suljeYhteys();
 
             return taulu;
         }
@@ -134,5 +136,7 @@ namespace HotelProject
             adapteri.Fill(taulu);
             return taulu;
         }
+
+
     }
 }

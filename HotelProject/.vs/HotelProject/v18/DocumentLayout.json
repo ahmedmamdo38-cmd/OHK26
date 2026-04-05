@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelproject\\hotelproject\\reseversetion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\reseversetion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelproject\\hotelproject\\managereseversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\managereseversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelproject\\hotelproject\\managereseversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\managereseversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelproject\\hotelproject\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelproject\\hotelproject\\roommanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\roommanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\hotelproject\\hotelproject\\roommanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\roommanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\hotelproject\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\hotelproject\\roommanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{613C556F-2E9D-492A-98E2-271AA00DE084}|HotelProject\\HotelProject.csproj|solutionrelative:hotelproject\\roommanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomePage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\HomePage.cs",
-              "RelativeDocumentMoniker": "HotelProject\\HomePage.cs",
-              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\HomePage.cs [Design]",
-              "RelativeToolTip": "HotelProject\\HomePage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T07:16:19.741Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "RoomManagement.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\RoomManagement.cs",
               "RelativeDocumentMoniker": "HotelProject\\RoomManagement.cs",
@@ -56,28 +55,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Rooms.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\Rooms.cs",
               "RelativeDocumentMoniker": "HotelProject\\Rooms.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\Rooms.cs",
               "RelativeToolTip": "HotelProject\\Rooms.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAAAIYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowIsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T16:59:47.742Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "RoomManagement.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\RoomManagement.cs",
+              "RelativeDocumentMoniker": "HotelProject\\RoomManagement.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\RoomManagement.cs",
+              "RelativeToolTip": "HotelProject\\RoomManagement.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAIAwwBgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T08:55:32.4Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageReseversation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\ManageReseversation.cs",
+              "RelativeDocumentMoniker": "HotelProject\\ManageReseversation.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\ManageReseversation.cs [Design]",
+              "RelativeToolTip": "HotelProject\\ManageReseversation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:05:55.613Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reseversetion.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\Reseversetion.cs",
+              "RelativeDocumentMoniker": "HotelProject\\Reseversetion.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\Reseversetion.cs",
+              "RelativeToolTip": "HotelProject\\Reseversetion.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:08:46.288Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Customers.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\Customers.cs",
               "RelativeDocumentMoniker": "HotelProject\\Customers.cs",
               "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\Customers.cs",
               "RelativeToolTip": "HotelProject\\Customers.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T17:27:35.858Z",
+              "WhenOpened": "2026-04-05T11:14:32.843Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageReseversation.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\ManageReseversation.cs",
+              "RelativeDocumentMoniker": "HotelProject\\ManageReseversation.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\HotelProject\\HotelProject\\ManageReseversation.cs",
+              "RelativeToolTip": "HotelProject\\ManageReseversation.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T11:25:07.396Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {

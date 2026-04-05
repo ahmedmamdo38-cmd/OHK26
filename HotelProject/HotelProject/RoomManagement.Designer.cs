@@ -144,6 +144,7 @@
             RoomClearFieldsBT.TabIndex = 18;
             RoomClearFieldsBT.Text = "Clear Fields\r\n";
             RoomClearFieldsBT.UseVisualStyleBackColor = false;
+            RoomClearFieldsBT.Click += RoomClearFieldsBT_Click;
             // 
             // RoomRemoveBT
             // 
@@ -157,6 +158,7 @@
             RoomRemoveBT.TabIndex = 17;
             RoomRemoveBT.Text = "Remove";
             RoomRemoveBT.UseVisualStyleBackColor = false;
+            RoomRemoveBT.Click += RoomRemoveBT_Click;
             // 
             // RoomEditBT
             // 
@@ -170,6 +172,7 @@
             RoomEditBT.TabIndex = 16;
             RoomEditBT.Text = "Edit";
             RoomEditBT.UseVisualStyleBackColor = false;
+            RoomEditBT.Click += RoomEditBT_Click;
             // 
             // RoomAddBT
             // 
@@ -183,6 +186,7 @@
             RoomAddBT.TabIndex = 15;
             RoomAddBT.Text = "Add new room";
             RoomAddBT.UseVisualStyleBackColor = false;
+            RoomAddBT.Click += RoomAddBT_Click;
             // 
             // RoomFreeLb
             // 
@@ -232,6 +236,7 @@
             RoomManagementDG.RowHeadersWidth = 62;
             RoomManagementDG.Size = new Size(651, 462);
             RoomManagementDG.TabIndex = 1;
+            RoomManagementDG.CellContentClick += RoomManagementDG_CellContentClick;
             // 
             // RoomNumberLB
             // 
@@ -273,6 +278,7 @@
             Controls.Add(YlaPanel);
             Name = "RoomManagement";
             Text = "RoomManagement";
+            Load += RoomManagement_Load;
             AlaPanel.ResumeLayout(false);
             AlaPanel.PerformLayout();
             groupBox1.ResumeLayout(false);
