@@ -38,14 +38,32 @@ namespace HotelProject
             return taulu;
         }
 
-        public bool muokkaVarausta(int roomNumber, int customerNumber, DateTime checkIn, DateTime checkOut, int varaus)
+        public bool muokkaVarausta(int roomNumber, int customerId, DateTime checkIn, DateTime checkOut, int varaus)
         {
             MySqlCommand komento = new MySqlCommand();
             String paivitysksely = "UPDATE `resevertion` SET `RoomNro`= @rno" +
                 "`CustomerId`= @cid" + "`ResevertionStart`= @ent" + "`ResevertionFinish`= @out" +
                 "WHERE `ResevertionId`= @rid";
 
-             
+            komento.CommandText = paivitysksely;
+            komento.Connection = connect.otaYhteys();
+
+            komento.Parameters.Add("@rno", MySqlDbType.Int32).Value = roomNumber;
+            komento.Parameters.Add("@cid", MySqlDbType.VarChar).Value = customerId;
+            komento.Parameters.Add("@ent", MySqlDbType.Date).Value = checkIn;
+            komento.Parameters.Add("@out", MySqlDbType.Date).Value = checkOut;
+
+            connect.avaaYhteys();
+            if (komento.ExecuteNonQuery() == 1)
+            {
+                connect.suljeYhteys();
+                return true;
+            }
+            else
+            {
+                connect.suljeYhteys();
+                return false;
+            }
         }
 
 
@@ -86,5 +104,30 @@ namespace HotelProject
                 return true;
             }
         }
+
+
+        public bool poistaVaraus(String reseversetionId)
+        {
+            MySqlCommand komento = new MySqlCommand();
+            String poistokysely = "DELETE FROM resevertion WHERE ResevertionId= @rid";
+            komento.CommandText = poistokysely;
+            komento.Connection = connect.otaYhteys();
+
+            komento.Parameters.Add("@rid", MySqlDbType.Int32).Value = reseversetionId;
+
+            connect.avaaYhteys();
+            if (komento.ExecuteNonQuery() == 1)
+            {
+                connect.suljeYhteys();
+                return true;
+            }
+            else
+            {
+                connect.suljeYhteys();
+                return false;
+            }
+        }
+
+       
     }
 }

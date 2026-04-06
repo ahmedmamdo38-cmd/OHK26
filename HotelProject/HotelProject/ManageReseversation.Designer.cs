@@ -148,6 +148,7 @@
             ResevertionRemoveBT.TabIndex = 17;
             ResevertionRemoveBT.Text = "Remove";
             ResevertionRemoveBT.UseVisualStyleBackColor = false;
+            ResevertionRemoveBT.Click += ResevertionRemoveBT_Click;
             // 
             // ResevertionEditBT
             // 
@@ -245,6 +246,7 @@
             ResevertionManagementDG.RowHeadersWidth = 62;
             ResevertionManagementDG.Size = new Size(651, 479);
             ResevertionManagementDG.TabIndex = 1;
+            ResevertionManagementDG.CellClick += ResevertionManagementDG_CellClick;
             // 
             // ResevertionNumberLB
             // 

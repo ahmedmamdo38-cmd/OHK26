@@ -43,8 +43,8 @@ namespace HotelProject
             try
             {
                 int resevertionNumber = Convert.ToInt32(ResevertionNumberTB.Text);
-
-                if (reseversetion.muokkaVarausta(room, customer, checkInto, checkOut, resevertionNumber))
+                
+                if(reseversetion.muokkaVarausta(room, customer, checkInto, checkOut))
                 {
                     MessageBox.Show("Room successfully modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -55,7 +55,7 @@ namespace HotelProject
                 }
 
             }
-            catch (Exception ex)
+            catch( Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message, "Room number error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -70,25 +70,16 @@ namespace HotelProject
             DateTime checkOut = Convert.ToDateTime(RCheckOutHotelDTP.Value);
 
 
-            try
+            if (reseversetion.lisaaVaraus(customer, room, checkIn, checkOut))
             {
-                int resevertionNumber = Convert.ToInt32(ResevertionNumberTB.Text);
-
-                if (reseversetion.muokkaVarausta(room, customer, checkIn, checkOut, resevertionNumber))
-                {
-                    MessageBox.Show("Room successfully modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("The room cannot be modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                }
-
+                MessageBox.Show("Reservation added successfully", "Reservation adding", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Error: " + ex.Message, "Room number error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Unable to add reservetion", "Reservation adding", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+            ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
         }
 
         private void RRoomTypeCB_SelectedIndexChanged(object sender, EventArgs e)
@@ -97,38 +88,6 @@ namespace HotelProject
             RRoomTypeCB.DataSource = room.tyypillisetHuoneet(roomType);
             RRoomTypeCB.DisplayMember = "RoomId";
             RRoomTypeCB.ValueMember = "RoomId";
-        }
-
-        private void ResevertionManagementDG_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            ResevertionNumberTB.Text = ResevertionManagementDG.CurrentRow.Cells[0].Value.ToString();
-            RCustomerNumberCB.SelectedValue = ResevertionManagementDG.CurrentRow.Cells[1].ToString();
-            RRoomTypeCB.SelectedValue = ResevertionManagementDG.CurrentRow.Cells[2].ToString();
-            RCheckIntoHotelDTP.Value = Convert.ToDateTime(ResevertionManagementDG.CurrentRow.Cells[3].Value);
-            RCheckOutHotelDTP.Value = Convert.ToDateTime(ResevertionManagementDG.CurrentRow.Cells[4].Value);
-        }
-
-        private void ResevertionRemoveBT_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                String reseversetionNro = ResevertionNumberTB.Text;
-                if (reseversetion.poistaVaraus(reseversetionNro))
-                {
-                    ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
-                    MessageBox.Show("Reseversetion is removed", "Room removal", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Reseversetion can not be romove", "Room removal", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-
-                
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show("Error: " + ex);
-            }
         }
     }
 }
