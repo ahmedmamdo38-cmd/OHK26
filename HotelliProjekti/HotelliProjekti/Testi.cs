@@ -41,7 +41,7 @@ namespace HotelliProjekti
             
             if(taulu.Rows.Count > 0)
             {
-                this.Hide();
+                this.Hide();XmlReadMode
                 Paaikkuna pikkuna = new Paaikkuna();
                 pikkuna.Show();
             }

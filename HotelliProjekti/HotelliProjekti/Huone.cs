@@ -86,7 +86,7 @@ namespace HotelliProjekti
         }
 
 
-        public bool muokkaHuonetta(int hnro, int htyyppi, String puh, String vapaa)
+        public bool muokkaHuonet(int hnro, int htyyppi, String puh, String vapaa)
         {
             MySqlCommand komento = new MySqlCommand();
             String paivityskysely = "UPDATE `huoneet` SET `Huonetyyppi`= @hty," +

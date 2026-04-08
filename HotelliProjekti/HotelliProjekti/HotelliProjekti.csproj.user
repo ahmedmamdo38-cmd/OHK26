@@ -4,9 +4,6 @@
     <Compile Update="Asiakkaiden hallinta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Kirjautumisikkuna.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Huoneiden Hallinta.cs">
       <SubType>Form</SubType>
     </Compile>
