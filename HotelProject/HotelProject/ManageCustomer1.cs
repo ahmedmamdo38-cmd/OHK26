@@ -9,6 +9,7 @@ namespace HotelProject
         public ManageCustomer1()
         {
             InitializeComponent();
+            CustomerManagementDG.DataSource = customer.haeAsiakkaat();
         }
 
         private void ManageCustomer1_Load(object sender, EventArgs e)
@@ -44,7 +45,7 @@ namespace HotelProject
                     MessageBox.Show("New client unable to add", "Client add", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
+            CustomerManagementDG.DataSource = customer.haeAsiakkaat();
 
         }
 
@@ -53,29 +54,80 @@ namespace HotelProject
 
         private void CustomerClearFieldsBT_Click(object sender, EventArgs e)
         {
-            CustomerFirstnameTB.Text = "";
-            CustomerSurnameTB.Text = "";
-            CustomerAddressTB.Text = "";
-            CustomerPostalCodeTB.Text = "";
-            CustomerPostOfficeTB.Text = "";
-            CustomerUsernameTB.Text = "";
-            CustomerPasswordTB.Text = "";
+            
         }
 
-        private void CustomerManagementDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void CustomerManagementDG_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            CustomerFirstnameTB.Text =  CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
-            CustomerSurnameTB.Text =    CustomerManagementDG.CurrentRow.Cells[1].Value.ToString();
-            CustomerAddressTB.Text =    CustomerManagementDG.CurrentRow.Cells[2].Value.ToString();
+            CustomerFirstnameTB.Text = CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
+            CustomerSurnameTB.Text = CustomerManagementDG.CurrentRow.Cells[1].Value.ToString();
+            CustomerAddressTB.Text = CustomerManagementDG.CurrentRow.Cells[2].Value.ToString();
             CustomerPostalCodeTB.Text = CustomerManagementDG.CurrentRow.Cells[3].Value.ToString();
             CustomerPostOfficeTB.Text = CustomerManagementDG.CurrentRow.Cells[4].Value.ToString();
-            CustomerUsernameTB.Text =   CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
-            CustomerPasswordTB.Text =   CustomerManagementDG.CurrentRow.Cells[6].Value.ToString();
+            CustomerUsernameTB.Text = CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
+            CustomerPasswordTB.Text = CustomerManagementDG.CurrentRow.Cells[6].Value.ToString();
         }
 
         private void CustomerRemoveBT_Click(object sender, EventArgs e)
         {
-            String customerid = CustomerUsernameTB.Text;
+
+        }
+
+        private void CustomerEditBT_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CustomerAddBT_Click_1(object sender, EventArgs e)
+        {
+            //By misstake i press this function 
+        }
+
+        private void CustomerManagementDG_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            CustomerFirstnameTB.Text = CustomerManagementDG.CurrentRow.Cells[0].Value.ToString();
+            CustomerSurnameTB.Text = CustomerManagementDG.CurrentRow.Cells[1].Value.ToString();
+            CustomerAddressTB.Text = CustomerManagementDG.CurrentRow.Cells[2].Value.ToString();
+            CustomerPostalCodeTB.Text = CustomerManagementDG.CurrentRow.Cells[3].Value.ToString();
+            CustomerPostOfficeTB.Text = CustomerManagementDG.CurrentRow.Cells[4].Value.ToString();
+            CustomerUsernameTB.Text = CustomerManagementDG.CurrentRow.Cells[5].Value.ToString();
+            CustomerPasswordTB.Text = CustomerManagementDG.CurrentRow.Cells[6].Value.ToString();
+            CustomerIDTB.Text = CustomerManagementDG.CurrentRow.Cells[7].Value.ToString();
+        }
+
+        private void CustomerEditBT_Click_1(object sender, EventArgs e)
+        {
+            String firstname = CustomerFirstnameTB.Text;
+            String surname = CustomerSurnameTB.Text;
+            String address = CustomerAddressTB.Text;
+            String postalcode = CustomerPostalCodeTB.Text;
+            String postoffice = CustomerPostOfficeTB.Text;
+            String username = CustomerUsernameTB.Text;
+            String password = CustomerPasswordTB.Text;
+            int custid = int.Parse(CustomerIDTB.Text);      
+
+            if (firstname.Equals("") || surname.Equals("") || address.Equals("") || postalcode.Equals("") || postoffice.Equals("") || username.Equals("") || password.Equals(""))
+            {
+                MessageBox.Show("Error!!! Required fields-Firstname, Surname, Street address, postalcode, postoffice, username and password");
+            }
+            else
+            {
+                Boolean lisaaAsiakas = customer.muokkaAsiakkaat(custid, firstname, surname, address, postalcode, postoffice, username, password);
+                if (lisaaAsiakas)
+                {
+                    MessageBox.Show("Client updated successfully ", "Client update", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Unable to update client", "Client update", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                CustomerManagementDG.DataSource = customer.haeAsiakkaat();
+            }
+        }
+
+        private void CustomerRemoveBT_Click_1(object sender, EventArgs e)
+        {
+            String customerid = CustomerIDTB.Text;
 
 
             if (customer.poistaAsiakas(customerid))
@@ -90,40 +142,18 @@ namespace HotelProject
 
             }
             CustomerClearFieldsBT.PerformClick();
+            CustomerManagementDG.DataSource = customer.haeAsiakkaat();
         }
 
-        private void CustomerEditBT_Click(object sender, EventArgs e)
+        private void CustomerClearFieldsBT_Click_1(object sender, EventArgs e)
         {
-            String firstname = CustomerFirstnameTB.Text;
-            String surname = CustomerSurnameTB.Text;
-            String address = CustomerAddressTB.Text;
-            String postalcode = CustomerPostalCodeTB.Text;
-            String postoffice = CustomerPostOfficeTB.Text;
-            String username = CustomerUsernameTB.Text;
-            String password = CustomerPasswordTB.Text;
-
-            if (firstname.Equals("") || surname.Equals("") || address.Equals("") || postalcode.Equals("") || postoffice.Equals("") || username.Equals("") || password.Equals(""))
-            {
-                MessageBox.Show("Error!!! Required fields-Firstname, Surname, Street address, postalcode, postoffice, username and password");
-            }
-            else
-            {
-                Boolean lisaaAsiakas = customer.muokkaAsiakkaat(firstname, surname, address, postalcode, postoffice, username, password);
-                if (lisaaAsiakas)
-                {
-                    MessageBox.Show("Client updated successfully ", "Client update", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Unable to update client", "Client update", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                CustomerManagementDG.DataSource = customer.haeAsiakkaat();
-            }
-        }
-
-        private void CustomerAddBT_Click_1(object sender, EventArgs e)
-        {
-            //By misstake i press this function 
+            CustomerFirstnameTB.Text = "";
+            CustomerSurnameTB.Text = "";
+            CustomerAddressTB.Text = "";
+            CustomerPostalCodeTB.Text = "";
+            CustomerPostOfficeTB.Text = "";
+            CustomerUsernameTB.Text = "";
+            CustomerPasswordTB.Text = "";
         }
     }
 }

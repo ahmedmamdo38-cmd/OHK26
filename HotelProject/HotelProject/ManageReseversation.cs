@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,83 +28,91 @@ namespace HotelProject
             RRoomTypeCB.DisplayMember = "RoomType";
             RRoomTypeCB.ValueMember = "CategoryId";
 
-            RCustomerNumberCB.DataSource = "";
-            RCustomerNumberCB.DisplayMember = "FirstName";
+            RCustomerNumberCB.DataSource = customer.asiakasLista();
+            RCustomerNumberCB.DisplayMember = "kokonimi";
             RCustomerNumberCB.ValueMember = "CustomerId";
-            RCustomerNumberCB.DataSource = reseversetion.haeVaraukset();
+            ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
         }
 
-        private void VMuokkaBt_Click(object sender, EventArgs e)
+        public bool muokkaVarausta(int roomNumber, int customerId, DateTime checkIn, DateTime checkOut, int varaus)
         {
-            int room = Convert.ToInt32(RRooomNumberCB.SelectedValue.ToString());
-            int customer = Convert.ToInt32(RCustomerNumberCB.SelectedValue.ToString());
-            DateTime checkInto = Convert.ToDateTime(RCheckIntoHotelDTP.Value);
-            DateTime checkOut = Convert.ToDateTime(RCheckOutHotelDTP.Value);
+            MySqlCommand komento = new MySqlCommand();
+            String paivitysksely = "UPDATE `resevertion` SET `RoomNro`= @rno, " +
+                "`CustomerId`= @cid, " + "`ResevertionStart`= @ent, " + "`ResevertionFinish`= @out " +
+                "WHERE `ResevertionId`= @rid";
 
-            try
+            komento.CommandText = paivitysksely;
+            komento.Connection = connect.otaYhteys();
+
+            komento.Parameters.Add("@rno", MySqlDbType.Int32).Value = roomNumber;
+            komento.Parameters.Add("@cid", MySqlDbType.VarChar).Value = customerId;
+            komento.Parameters.Add("@ent", MySqlDbType.Date).Value = checkIn;
+            komento.Parameters.Add("@out", MySqlDbType.Date).Value = checkOut;
+            komento.Parameters.Add("@rid", MySqlDbType.Int32).Value = varaus;
+
+            connect.avaaYhteys();
+            if (komento.ExecuteNonQuery() == 1)
             {
-                int resevertionNumber = Convert.ToInt32(ResevertionNumberTB.Text);
-
-                if (reseversetion.muokkaVarausta(room, customer, checkInto, checkOut, resevertionNumber))
-                {
-                    MessageBox.Show("Room successfully modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("The room cannot be modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-                }
-
+                connect.suljeYhteys();
+                return true;
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Error: " + ex.Message, "Room number error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                connect.suljeYhteys();
+                return false;
             }
-            ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
         }
 
         private void ResevertionAddBT_Click(object sender, EventArgs e)
         {
-            int customer = Convert.ToInt32(RCustomerNumberCB.SelectedValue.ToString());
-            int room = Convert.ToInt32(RRooomNumberCB.SelectedValue.ToString());
-            DateTime checkIn = Convert.ToDateTime(RCheckIntoHotelDTP.Value);
-            DateTime checkOut = Convert.ToDateTime(RCheckOutHotelDTP.Value);
-
-
             try
             {
-                int resevertionNumber = Convert.ToInt32(ResevertionNumberTB.Text);
-
-                if (reseversetion.muokkaVarausta(room, customer, checkIn, checkOut, resevertionNumber))
+                if (!int.TryParse(RCustomerNumberCB.SelectedValue?.ToString(), out int customer))
                 {
-                    MessageBox.Show("Room successfully modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Please select a valid customer", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                if (!int.TryParse(RRooomNumberCB.SelectedValue?.ToString(), out int room))
+                {
+                    MessageBox.Show("Please select a valid room", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                DateTime checkIn = RCheckIntoHotelDTP.Value;
+                DateTime checkOut = RCheckOutHotelDTP.Value;
+
+                if (reseversetion.lisaaVaraus(room, customer, checkIn, checkOut))
+                {
+                    MessageBox.Show("Reservation successfully added", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
                 }
                 else
                 {
-                    MessageBox.Show("The room cannot be modified", "Room editing", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                    MessageBox.Show("The reservation cannot be added", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message, "Room number error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
         }
 
         private void RRoomTypeCB_SelectedIndexChanged(object sender, EventArgs e)
         {
             int roomType = RRoomTypeCB.SelectedIndex + 1;
-            RRoomTypeCB.DataSource = room.tyypillisetHuoneet(roomType);
-            RRoomTypeCB.DisplayMember = "RoomId";
-            RRoomTypeCB.ValueMember = "RoomId";
+            RRooomNumberCB.DataSource = room.tyypillisetHuoneet(roomType);
+            RRooomNumberCB.DisplayMember = "RoomId";
+            RRooomNumberCB.ValueMember = "RoomId";
         }
 
         private void ResevertionManagementDG_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             ResevertionNumberTB.Text = ResevertionManagementDG.CurrentRow.Cells[0].Value.ToString();
-            RCustomerNumberCB.SelectedValue = ResevertionManagementDG.CurrentRow.Cells[1].ToString();
-            RRoomTypeCB.SelectedValue = ResevertionManagementDG.CurrentRow.Cells[2].ToString();
+            RCustomerNumberCB.SelectedValue = Convert.ToInt32(ResevertionManagementDG.CurrentRow.Cells[2].Value.ToString());
+            int hnro = Convert.ToInt32(ResevertionManagementDG.CurrentRow.Cells[1].Value.ToString());
+            RRoomTypeCB.SelectedValue = Convert.ToInt32(room.haeHuoneenTyyppi(hnro));
             RCheckIntoHotelDTP.Value = Convert.ToDateTime(ResevertionManagementDG.CurrentRow.Cells[3].Value);
             RCheckOutHotelDTP.Value = Convert.ToDateTime(ResevertionManagementDG.CurrentRow.Cells[4].Value);
         }
@@ -123,12 +132,50 @@ namespace HotelProject
                     MessageBox.Show("Reseversetion can not be romove", "Room removal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
-                
+
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex);
             }
+        }
+
+        private void ResevertionEditBT_Click(object sender, EventArgs e)
+        {
+            int huonenro = Convert.ToInt32(RRooomNumberCB.SelectedValue.ToString());
+            int asiakas = Convert.ToInt32(RCustomerNumberCB.SelectedValue.ToString());
+            DateTime sisaan = Convert.ToDateTime(RCheckIntoHotelDTP.Value);
+            DateTime ulos = Convert.ToDateTime(RCheckOutHotelDTP.Value);
+            try
+            {
+                int vara = Convert.ToInt32(ResevertionNumberTB.Text);
+
+                if (reseversetion.muokkaVarausta(huonenro, asiakas, sisaan, ulos, vara))
+                {
+                    MessageBox.Show("Varaus muokattu onnistuneesti", "Huoneen muokkaus", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MessageBox.Show("Varausta ei pystytty muokkaamaan", "Huoneen muokkaus", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Virhe: " + ex.Message, "Huoneen numero virhe", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            ResevertionManagementDG.DataSource = reseversetion.haeVaraukset();
+
+        }
+
+        private void ResevertionClearFieldBT_Click(object sender, EventArgs e)
+        {
+            ResevertionNumberTB.Text = "";
+            RCustomerNumberCB.SelectedIndex = -1;
+            RRoomTypeCB.SelectedIndex = -1;
+            RRooomNumberCB.SelectedIndex = -1;
+            RCheckIntoHotelDTP.Value = DateTime.Now;
+            RCheckOutHotelDTP.Value = DateTime.Now;
         }
     }
 }

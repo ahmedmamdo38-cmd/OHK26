@@ -135,6 +135,7 @@
             ResevertionClearFieldBT.TabIndex = 18;
             ResevertionClearFieldBT.Text = "Clear Fields";
             ResevertionClearFieldBT.UseVisualStyleBackColor = false;
+            ResevertionClearFieldBT.Click += ResevertionClearFieldBT_Click;
             // 
             // ResevertionRemoveBT
             // 
@@ -162,7 +163,7 @@
             ResevertionEditBT.TabIndex = 16;
             ResevertionEditBT.Text = "Edit";
             ResevertionEditBT.UseVisualStyleBackColor = false;
-            ResevertionEditBT.Click += VMuokkaBt_Click;
+            ResevertionEditBT.Click += ResevertionEditBT_Click;
             // 
             // ResevertionAddBT
             // 

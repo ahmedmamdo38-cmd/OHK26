@@ -14,6 +14,18 @@ namespace HotelProject
         ConnectWithMySQL connect = new ConnectWithMySQL();
 
 
+        public DataTable asiakasLista()
+        {
+            MySqlCommand komento = new MySqlCommand("SELECT CustomerId, Concat(FirstName, ' ', Surname) AS kokonimi FROM customers", connect.otaYhteys() );
+            MySqlDataAdapter adapteri = new MySqlDataAdapter();
+            DataTable taulu = new DataTable();
+
+            adapteri.SelectCommand = komento;
+            adapteri.Fill(taulu);
+            return taulu;
+        
+        }
+
         public bool lisaaAsiakas(String firstname, String surname, String address, String postalcode, String postoffice, String username, String password)
         {
             MySqlCommand komento = new MySqlCommand();
@@ -51,7 +63,7 @@ namespace HotelProject
 
         public DataTable haeAsiakkaat()
         {
-            MySqlCommand komento = new MySqlCommand("SELECT Firstname, Surname, Address, Postoffice, PostalCode, Username, Password FROM customers", connect.otaYhteys());
+            MySqlCommand komento = new MySqlCommand("SELECT Firstname, Surname, Address, Postoffice, PostalCode, Username, Password, CustomerId FROM customers", connect.otaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
@@ -63,12 +75,12 @@ namespace HotelProject
             return taulu;
         }
 
-        public bool muokkaAsiakkaat(String firstname, String surname, String address, String postoffice, String postalcode, String username, String password)
+        public bool muokkaAsiakkaat(int CustomerID, String firstname, String surname, String address, String postoffice, String postalcode, String username, String password)
         {
             MySqlCommand komento = new MySqlCommand();
-            String paivityskysely = "UPDATE `customers` SET `Firstname`= @fir" +
-                "`Surname`= @sur" + "`Address`= @add" + "`PostOffice`= @pof" +
-                "`PostalCode`= @pcd" + "`Username`= @usr" + "`Password`= @pwd" +
+            String paivityskysely = "UPDATE `customers` SET `Firstname`= @fir, " +
+                "`Surname`= @sur," + " `Address`= @add," + " `PostOffice`= @pof," +
+                " `PostalCode`= @pcd," + " `Username`= @usr," + " `Password`= @pwd " +
                 "WHERE CustomerId = @cui";
 
             komento.CommandText = paivityskysely;
@@ -81,6 +93,8 @@ namespace HotelProject
             komento.Parameters.Add("@pcd", MySqlDbType.VarChar).Value = postalcode;
             komento.Parameters.Add("@usr", MySqlDbType.VarChar).Value = username;
             komento.Parameters.Add("@pwd", MySqlDbType.VarChar).Value = password;
+            komento.Parameters.Add("@cui", MySqlDbType.Int32).Value = CustomerID;
+
 
             connect.avaaYhteys();
             if (komento.ExecuteNonQuery() == 1)
@@ -116,7 +130,7 @@ namespace HotelProject
             komento.CommandText = poistokysely;
             komento.Connection = connect.otaYhteys();
 
-            komento.Parameters.Add("cui", MySqlDbType.Int32).Value = customerid;
+            komento.Parameters.Add("@cui", MySqlDbType.Int32).Value = customerid;
 
             connect.avaaYhteys();
 

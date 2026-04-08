@@ -50,6 +50,7 @@
             CustomerFirstnameLB = new Label();
             YlaPanel = new Panel();
             CustomerManagementLB = new Label();
+            CustomerIDTB = new TextBox();
             AlaPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)CustomerManagementDG).BeginInit();
             YlaPanel.SuspendLayout();
@@ -58,6 +59,7 @@
             // AlaPanel
             // 
             AlaPanel.BackColor = Color.White;
+            AlaPanel.Controls.Add(CustomerIDTB);
             AlaPanel.Controls.Add(CustomerClearFieldsBT);
             AlaPanel.Controls.Add(CustomerRemoveBT);
             AlaPanel.Controls.Add(CustomerEditBT);
@@ -95,6 +97,7 @@
             CustomerClearFieldsBT.TabIndex = 18;
             CustomerClearFieldsBT.Text = "Clear Field";
             CustomerClearFieldsBT.UseVisualStyleBackColor = false;
+            CustomerClearFieldsBT.Click += CustomerClearFieldsBT_Click_1;
             // 
             // CustomerRemoveBT
             // 
@@ -108,6 +111,7 @@
             CustomerRemoveBT.TabIndex = 17;
             CustomerRemoveBT.Text = "Remove";
             CustomerRemoveBT.UseVisualStyleBackColor = false;
+            CustomerRemoveBT.Click += CustomerRemoveBT_Click_1;
             // 
             // CustomerEditBT
             // 
@@ -121,6 +125,7 @@
             CustomerEditBT.TabIndex = 16;
             CustomerEditBT.Text = "Edit\r\n";
             CustomerEditBT.UseVisualStyleBackColor = false;
+            CustomerEditBT.Click += CustomerEditBT_Click_1;
             // 
             // CustomerAddBT
             // 
@@ -134,7 +139,6 @@
             CustomerAddBT.TabIndex = 15;
             CustomerAddBT.Text = "Add Customer";
             CustomerAddBT.UseVisualStyleBackColor = false;
-            CustomerAddBT.Click += CustomerAddBT_Click;
             CustomerAddBT.Click += CustomerAddBT_Click_1;
             // 
             // CustomerPasswordTB
@@ -263,6 +267,7 @@
             CustomerManagementDG.RowHeadersWidth = 62;
             CustomerManagementDG.Size = new Size(651, 465);
             CustomerManagementDG.TabIndex = 1;
+            CustomerManagementDG.CellClick += CustomerManagementDG_CellClick_1;
             // 
             // CustomerFirstnameLB
             // 
@@ -294,6 +299,13 @@
             CustomerManagementLB.Size = new Size(636, 63);
             CustomerManagementLB.TabIndex = 0;
             CustomerManagementLB.Text = "Customer Management";
+            // 
+            // CustomerIDTB
+            // 
+            CustomerIDTB.Location = new Point(488, 402);
+            CustomerIDTB.Name = "CustomerIDTB";
+            CustomerIDTB.Size = new Size(150, 31);
+            CustomerIDTB.TabIndex = 19;
             // 
             // ManageCustomer1
             // 
@@ -337,5 +349,6 @@
         private Label CustomerFirstnameLB;
         private Panel YlaPanel;
         private Label CustomerManagementLB;
+        private TextBox CustomerIDTB;
     }
 }

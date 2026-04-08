@@ -73,8 +73,8 @@ namespace HotelProject
         public bool muokkaHuonetta(int roomId, int roomtype, String phone, String free)
         {
             MySqlCommand komento = new MySqlCommand();
-            String paivityskysely = "UPDATE `rooms` SET `RoomType`= @rty" +
-                "`Phone`= @pho, `Free`= @fre" +
+            String paivityskysely = "UPDATE `rooms` SET `RoomType`= @rty, " +
+                "`Phone`= @pho, `Free`= @fre " +
                 "WHERE `RoomId`= @rid";
 
             komento.CommandText = paivityskysely;
@@ -136,7 +136,21 @@ namespace HotelProject
             adapteri.Fill(taulu);
             return taulu;
         }
+        public int haeHuoneenTyyppi(int numero)
+        {
+            MySqlCommand komento = new MySqlCommand();
+            String lisayskysely = "SELECT * FROM rooms WHERE RoomId = @nro";
+            komento.CommandText = lisayskysely;
+            komento.Connection = connect.otaYhteys();
 
+            komento.Parameters.Add("@nro", MySqlDbType.Int32).Value = numero;
+            MySqlDataAdapter adapteri = new MySqlDataAdapter();
+            DataTable taulu = new DataTable();
+
+            adapteri.SelectCommand = komento;
+            adapteri.Fill(taulu);
+            return Convert.ToInt32(taulu.Rows[0][1].ToString());
+                }
 
     }
 }

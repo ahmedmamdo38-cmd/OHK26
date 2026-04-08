@@ -56,7 +56,7 @@ namespace HotelProject
         {
             RoomNumberTB.Text = RoomManagementDG.CurrentRow.Cells[0].Value.ToString();
             RoomTypeCB.SelectedValue = RoomManagementDG.CurrentRow.Cells[1].Value;
-            PhoneNumberTB.Text = RoomManagementDG.CurrentRow.Cells[2].ToString();
+            PhoneNumberTB.Text = RoomManagementDG.CurrentRow.Cells[2].Value.ToString();
         }
 
         private void RoomEditBT_Click(object sender, EventArgs e)

@@ -26,7 +26,7 @@ namespace HotelProject
 
         public DataTable haeVaraukset()
         {
-            MySqlCommand komento = new MySqlCommand("Select * From rooms", connect.otaYhteys());
+            MySqlCommand komento = new MySqlCommand("Select * From resevertion", connect.otaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
@@ -41,17 +41,19 @@ namespace HotelProject
         public bool muokkaVarausta(int roomNumber, int customerId, DateTime checkIn, DateTime checkOut, int varaus)
         {
             MySqlCommand komento = new MySqlCommand();
-            String paivitysksely = "UPDATE `resevertion` SET `RoomNro`= @rno" +
-                "`CustomerId`= @cid" + "`ResevertionStart`= @ent" + "`ResevertionFinish`= @out" +
+            String paivitysksely = "UPDATE `resevertion` SET `RoomNro`= @rno, " +
+                "`CustomerId`= @cid, `ResevertionStart`= @ent, `ResevertionFinish`= @out " +
                 "WHERE `ResevertionId`= @rid";
 
             komento.CommandText = paivitysksely;
             komento.Connection = connect.otaYhteys();
 
             komento.Parameters.Add("@rno", MySqlDbType.Int32).Value = roomNumber;
-            komento.Parameters.Add("@cid", MySqlDbType.VarChar).Value = customerId;
+            komento.Parameters.Add("@cid", MySqlDbType.Int32).Value = customerId;
             komento.Parameters.Add("@ent", MySqlDbType.Date).Value = checkIn;
             komento.Parameters.Add("@out", MySqlDbType.Date).Value = checkOut;
+            komento.Parameters.Add("@rid", MySqlDbType.Int32).Value = varaus;
+
 
             connect.avaaYhteys();
             if (komento.ExecuteNonQuery() == 1)
@@ -70,8 +72,8 @@ namespace HotelProject
         public bool lisaaVaraus(int roomNumber, int customerId, DateTime enter, DateTime ulos)
         {
             MySqlCommand komento = new MySqlCommand();
-            String lisaksely = "INSERT INTO `resevertion`" +
-                "(RoomNro, CustomerId, ResevertionStart, ResevertionFinish)" +
+            String lisaksely = "INSERT INTO `resevertion` " +
+                "(RoomNro, CustomerId, ResevertionStart, ResevertionFinish) " +
                 "VALUES (@rno, @cid, @ent, @out);";
 
             komento.CommandText = lisaksely;
