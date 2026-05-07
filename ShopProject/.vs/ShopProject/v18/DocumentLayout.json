@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\naiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\naiset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\shopproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Naiset.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Naiset.cs",
+              "RelativeDocumentMoniker": "ShopProject\\Naiset.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Naiset.cs [Design]",
+              "RelativeToolTip": "ShopProject\\Naiset.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T06:36:57.531Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\MainPage.cs",
+              "RelativeDocumentMoniker": "ShopProject\\MainPage.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\MainPage.cs [Design]",
+              "RelativeToolTip": "ShopProject\\MainPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:42:14.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogIN.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\LogIN.cs",
+              "RelativeDocumentMoniker": "ShopProject\\LogIN.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\LogIN.cs [Design]",
+              "RelativeToolTip": "ShopProject\\LogIN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T06:35:36.113Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
