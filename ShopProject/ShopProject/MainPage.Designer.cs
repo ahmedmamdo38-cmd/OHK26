@@ -31,11 +31,11 @@
             label1 = new Label();
             label2 = new Label();
             menuStrip1 = new MenuStrip();
-            miehetToolStripMenuItem = new ToolStripMenuItem();
-            naisetToolStripMenuItem = new ToolStripMenuItem();
-            lapsetToolStripMenuItem = new ToolStripMenuItem();
-            koriToolStripMenuItem = new ToolStripMenuItem();
-            muokkaToolStripMenuItem = new ToolStripMenuItem();
+            menToolStripMenuItem = new ToolStripMenuItem();
+            womenToolStripMenuItem = new ToolStripMenuItem();
+            childrenToolStripMenuItem = new ToolStripMenuItem();
+            basketToolStripMenuItem = new ToolStripMenuItem();
+            editInformationToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -62,43 +62,43 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(24, 24);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { miehetToolStripMenuItem, naisetToolStripMenuItem, lapsetToolStripMenuItem, koriToolStripMenuItem, muokkaToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { menToolStripMenuItem, womenToolStripMenuItem, childrenToolStripMenuItem, basketToolStripMenuItem, editInformationToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1357, 33);
             menuStrip1.TabIndex = 2;
             menuStrip1.Text = "menuStrip1";
             // 
-            // miehetToolStripMenuItem
+            // menToolStripMenuItem
             // 
-            miehetToolStripMenuItem.Name = "miehetToolStripMenuItem";
-            miehetToolStripMenuItem.Size = new Size(77, 29);
-            miehetToolStripMenuItem.Text = "Naiset";
-            miehetToolStripMenuItem.Click += miehetToolStripMenuItem_Click;
+            menToolStripMenuItem.Name = "menToolStripMenuItem";
+            menToolStripMenuItem.Size = new Size(63, 29);
+            menToolStripMenuItem.Text = "Men";
+            menToolStripMenuItem.Click += miehetToolStripMenuItem_Click;
             // 
-            // naisetToolStripMenuItem
+            // womenToolStripMenuItem
             // 
-            naisetToolStripMenuItem.Name = "naisetToolStripMenuItem";
-            naisetToolStripMenuItem.Size = new Size(82, 29);
-            naisetToolStripMenuItem.Text = "Miehet";
+            womenToolStripMenuItem.Name = "womenToolStripMenuItem";
+            womenToolStripMenuItem.Size = new Size(90, 29);
+            womenToolStripMenuItem.Text = "Women";
             // 
-            // lapsetToolStripMenuItem
+            // childrenToolStripMenuItem
             // 
-            lapsetToolStripMenuItem.Name = "lapsetToolStripMenuItem";
-            lapsetToolStripMenuItem.Size = new Size(79, 29);
-            lapsetToolStripMenuItem.Text = "Lapset";
+            childrenToolStripMenuItem.Name = "childrenToolStripMenuItem";
+            childrenToolStripMenuItem.Size = new Size(93, 29);
+            childrenToolStripMenuItem.Text = "Children";
             // 
-            // koriToolStripMenuItem
+            // basketToolStripMenuItem
             // 
-            koriToolStripMenuItem.Name = "koriToolStripMenuItem";
-            koriToolStripMenuItem.Size = new Size(59, 29);
-            koriToolStripMenuItem.Text = "Kori";
+            basketToolStripMenuItem.Name = "basketToolStripMenuItem";
+            basketToolStripMenuItem.Size = new Size(79, 29);
+            basketToolStripMenuItem.Text = "Basket";
             // 
-            // muokkaToolStripMenuItem
+            // editInformationToolStripMenuItem
             // 
-            muokkaToolStripMenuItem.Name = "muokkaToolStripMenuItem";
-            muokkaToolStripMenuItem.Size = new Size(92, 29);
-            muokkaToolStripMenuItem.Text = "Muokka";
+            editInformationToolStripMenuItem.Name = "editInformationToolStripMenuItem";
+            editInformationToolStripMenuItem.Size = new Size(157, 29);
+            editInformationToolStripMenuItem.Text = "Edit Information";
             // 
             // MainPage
             // 
@@ -122,10 +122,10 @@
         private Label label1;
         private Label label2;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem miehetToolStripMenuItem;
-        private ToolStripMenuItem naisetToolStripMenuItem;
-        private ToolStripMenuItem lapsetToolStripMenuItem;
-        private ToolStripMenuItem koriToolStripMenuItem;
-        private ToolStripMenuItem muokkaToolStripMenuItem;
+        private ToolStripMenuItem menToolStripMenuItem;
+        private ToolStripMenuItem womenToolStripMenuItem;
+        private ToolStripMenuItem childrenToolStripMenuItem;
+        private ToolStripMenuItem basketToolStripMenuItem;
+        private ToolStripMenuItem editInformationToolStripMenuItem;
     }
 }

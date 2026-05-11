@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ShopProject
 {
-    public partial class Naiset : Form
+    public partial class Women : Form
     {
-        public Naiset()
+        public Women()
         {
             InitializeComponent();
         }

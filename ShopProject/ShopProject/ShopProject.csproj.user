@@ -7,7 +7,10 @@
     <Compile Update="MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Naiset.cs">
+    <Compile Update="Men.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Women.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
