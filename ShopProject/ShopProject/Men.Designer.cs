@@ -84,7 +84,6 @@
             label.Size = new Size(144, 39);
             label.TabIndex = 4;
             label.Text = "T-Shirts";
-            label.Click += label1_Click;
             // 
             // Add2BasketBT
             // 
@@ -160,7 +159,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 22;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += this.pictureBox3_Click;
             // 
             // label1
             // 
@@ -330,7 +328,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1180, 867);
+            ClientSize = new Size(1341, 876);
             Controls.Add(MenSportWearCB);
             Controls.Add(MenShortCB);
             Controls.Add(MenTrousersCB);
