@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\shopproject\\men.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\men.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\shopproject\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\shopproject\\women.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\women.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\men.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\men.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\shopproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|c:\\users\\ahmed\\source2\\ohk26\\shopproject\\shopproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10CCDD84-19C5-49E3-860E-67DF396D5FEE}|ShopProject\\ShopProject.csproj|solutionrelative:shopproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Men.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Men.cs",
               "RelativeDocumentMoniker": "ShopProject\\Men.cs",
@@ -47,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Women.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Women.cs",
               "RelativeDocumentMoniker": "ShopProject\\Women.cs",
@@ -60,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainPage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\MainPage.cs",
               "RelativeDocumentMoniker": "ShopProject\\MainPage.cs",
@@ -73,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LogIN.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\LogIN.cs",
               "RelativeDocumentMoniker": "ShopProject\\LogIN.cs",
@@ -82,6 +90,31 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T06:35:36.113Z",
               "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Basket.cs",
+              "RelativeDocumentMoniker": "ShopProject\\Basket.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Basket.cs",
+              "RelativeToolTip": "ShopProject\\Basket.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T10:52:39.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Basket.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Basket.cs",
+              "RelativeDocumentMoniker": "ShopProject\\Basket.cs",
+              "ToolTip": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Basket.cs [Design]",
+              "RelativeToolTip": "ShopProject\\Basket.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T10:52:09.438Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -94,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\source2\\OHK26\\ShopProject\\ShopProject\\Program.cs",
               "RelativeDocumentMoniker": "ShopProject\\Program.cs",
