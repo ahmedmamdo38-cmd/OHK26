@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Men));
             pictureBox1 = new PictureBox();
             label = new Label();
-            Add2BasketBT = new Button();
             ClearFieldsBT = new Button();
             MenTShirtCB = new ComboBox();
             pictureBox2 = new PictureBox();
@@ -55,6 +54,14 @@
             MenTrousersCB = new ComboBox();
             MenShortCB = new ComboBox();
             MenSportWearCB = new ComboBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -85,28 +92,15 @@
             label.TabIndex = 4;
             label.Text = "T-Shirts";
             // 
-            // Add2BasketBT
-            // 
-            Add2BasketBT.BackColor = Color.SkyBlue;
-            Add2BasketBT.FlatStyle = FlatStyle.Popup;
-            Add2BasketBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            Add2BasketBT.ForeColor = Color.Snow;
-            Add2BasketBT.Location = new Point(45, 769);
-            Add2BasketBT.Name = "Add2BasketBT";
-            Add2BasketBT.Size = new Size(251, 65);
-            Add2BasketBT.TabIndex = 16;
-            Add2BasketBT.Text = "Add to Basket";
-            Add2BasketBT.UseVisualStyleBackColor = false;
-            // 
             // ClearFieldsBT
             // 
             ClearFieldsBT.BackColor = Color.SkyBlue;
             ClearFieldsBT.FlatStyle = FlatStyle.Popup;
             ClearFieldsBT.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
             ClearFieldsBT.ForeColor = Color.Snow;
-            ClearFieldsBT.Location = new Point(335, 769);
+            ClearFieldsBT.Location = new Point(45, 782);
             ClearFieldsBT.Name = "ClearFieldsBT";
-            ClearFieldsBT.Size = new Size(251, 65);
+            ClearFieldsBT.Size = new Size(206, 65);
             ClearFieldsBT.TabIndex = 17;
             ClearFieldsBT.Text = "Clear Fields";
             ClearFieldsBT.UseVisualStyleBackColor = false;
@@ -211,7 +205,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(45, 330);
+            pictureBox5.Location = new Point(45, 372);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(206, 230);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -221,9 +215,9 @@
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(345, 330);
+            pictureBox6.Location = new Point(335, 372);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(196, 230);
+            pictureBox6.Size = new Size(206, 230);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 29;
             pictureBox6.TabStop = false;
@@ -231,9 +225,9 @@
             // pictureBox7
             // 
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(610, 330);
+            pictureBox7.Location = new Point(612, 372);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(206, 246);
+            pictureBox7.Size = new Size(206, 230);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 30;
             pictureBox7.TabStop = false;
@@ -241,9 +235,9 @@
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(902, 330);
+            pictureBox8.Location = new Point(902, 372);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(206, 246);
+            pictureBox8.Size = new Size(206, 230);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 31;
             pictureBox8.TabStop = false;
@@ -252,7 +246,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Tahoma", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(88, 579);
+            label4.Location = new Point(92, 605);
             label4.Name = "label4";
             label4.Size = new Size(107, 39);
             label4.TabIndex = 32;
@@ -262,7 +256,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Tahoma", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(355, 579);
+            label5.Location = new Point(357, 605);
             label5.Name = "label5";
             label5.Size = new Size(156, 39);
             label5.TabIndex = 33;
@@ -272,7 +266,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Tahoma", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(644, 579);
+            label6.Location = new Point(654, 605);
             label6.Name = "label6";
             label6.Size = new Size(120, 39);
             label6.TabIndex = 34;
@@ -282,7 +276,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Tahoma", 16F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(902, 579);
+            label7.Location = new Point(902, 605);
             label7.Name = "label7";
             label7.Size = new Size(193, 39);
             label7.TabIndex = 35;
@@ -292,7 +286,7 @@
             // 
             MenJeansCB.FormattingEnabled = true;
             MenJeansCB.Items.AddRange(new object[] { "Regular Fit Jeans", "Slim Blue Jeans", "Black Skinny Jeans", "Ripped Street Jeans", "Relaxed Fit Jeans", "Washed Grey Jeans", "Straight Cut Jeans", "Stretch Casual Jeans" });
-            MenJeansCB.Location = new Point(45, 621);
+            MenJeansCB.Location = new Point(45, 647);
             MenJeansCB.Name = "MenJeansCB";
             MenJeansCB.Size = new Size(206, 33);
             MenJeansCB.TabIndex = 36;
@@ -301,7 +295,7 @@
             // 
             MenTrousersCB.FormattingEnabled = true;
             MenTrousersCB.Items.AddRange(new object[] { "Casual Chino Trousers", "Formal Office Trousers ", "Slim Fit Black Trousers", "Beige Cotton Trousers", "Smart Casual Trousers", "Stretch Comfort Trousers", "Pleated Dress Trousers", "Everyday Work Trousers" });
-            MenTrousersCB.Location = new Point(335, 621);
+            MenTrousersCB.Location = new Point(335, 647);
             MenTrousersCB.Name = "MenTrousersCB";
             MenTrousersCB.Size = new Size(206, 33);
             MenTrousersCB.TabIndex = 37;
@@ -310,7 +304,7 @@
             // 
             MenShortCB.FormattingEnabled = true;
             MenShortCB.Items.AddRange(new object[] { "Summer Cotton Short", "Sport Traning Short ", "Denim Casual Short", "Beach Swim Short", "Cargo Pocket Short ", "Jersey Lounge Short ", "Running Short ", "Chino Summer Short" });
-            MenShortCB.Location = new Point(610, 621);
+            MenShortCB.Location = new Point(612, 647);
             MenShortCB.Name = "MenShortCB";
             MenShortCB.Size = new Size(206, 33);
             MenShortCB.TabIndex = 38;
@@ -319,16 +313,128 @@
             // 
             MenSportWearCB.FormattingEnabled = true;
             MenSportWearCB.Items.AddRange(new object[] { "Active Traninig Set ", "Gym Performance T-Shirt ", "Running Joggers ", "Compression Sport Top", "Football Training Kit ", "Lightweight Track Jacket ", "Quick Dry Shorts ", "Fitness Hoodie Set " });
-            MenSportWearCB.Location = new Point(902, 621);
+            MenSportWearCB.Location = new Point(902, 647);
             MenSportWearCB.Name = "MenSportWearCB";
             MenSportWearCB.Size = new Size(206, 33);
             MenSportWearCB.TabIndex = 39;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.SkyBlue;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = Color.Snow;
+            button1.Location = new Point(45, 297);
+            button1.Name = "button1";
+            button1.Size = new Size(206, 55);
+            button1.TabIndex = 40;
+            button1.Text = "Add to Basket";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.SkyBlue;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button2.ForeColor = Color.Snow;
+            button2.Location = new Point(335, 297);
+            button2.Name = "button2";
+            button2.Size = new Size(206, 41);
+            button2.TabIndex = 41;
+            button2.Text = "Add to Basket";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.SkyBlue;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = Color.Snow;
+            button3.Location = new Point(610, 297);
+            button3.Name = "button3";
+            button3.Size = new Size(206, 41);
+            button3.TabIndex = 42;
+            button3.Text = "Add to Basket";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.SkyBlue;
+            button4.FlatStyle = FlatStyle.Popup;
+            button4.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = Color.Snow;
+            button4.Location = new Point(902, 297);
+            button4.Name = "button4";
+            button4.Size = new Size(206, 41);
+            button4.TabIndex = 43;
+            button4.Text = "Add to Basket";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.SkyBlue;
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = Color.Snow;
+            button5.Location = new Point(45, 686);
+            button5.Name = "button5";
+            button5.Size = new Size(206, 41);
+            button5.TabIndex = 44;
+            button5.Text = "Add to Basket";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.SkyBlue;
+            button6.FlatStyle = FlatStyle.Popup;
+            button6.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.ForeColor = Color.Snow;
+            button6.Location = new Point(335, 686);
+            button6.Name = "button6";
+            button6.Size = new Size(206, 41);
+            button6.TabIndex = 45;
+            button6.Text = "Add to Basket";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.SkyBlue;
+            button7.FlatStyle = FlatStyle.Popup;
+            button7.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button7.ForeColor = Color.Snow;
+            button7.Location = new Point(612, 686);
+            button7.Name = "button7";
+            button7.Size = new Size(206, 41);
+            button7.TabIndex = 46;
+            button7.Text = "Add to Basket";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.SkyBlue;
+            button8.FlatStyle = FlatStyle.Popup;
+            button8.Font = new Font("Tahoma", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button8.ForeColor = Color.Snow;
+            button8.Location = new Point(902, 686);
+            button8.Name = "button8";
+            button8.Size = new Size(206, 41);
+            button8.TabIndex = 47;
+            button8.Text = "Add to Basket";
+            button8.UseVisualStyleBackColor = false;
             // 
             // Men
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1341, 876);
+            ClientSize = new Size(1154, 863);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(MenSportWearCB);
             Controls.Add(MenShortCB);
             Controls.Add(MenTrousersCB);
@@ -352,7 +458,6 @@
             Controls.Add(pictureBox2);
             Controls.Add(MenTShirtCB);
             Controls.Add(ClearFieldsBT);
-            Controls.Add(Add2BasketBT);
             Controls.Add(label);
             Controls.Add(pictureBox1);
             Name = "Men";
@@ -372,7 +477,6 @@
         #endregion
         private PictureBox pictureBox1;
         private Label label;
-        private Button Add2BasketBT;
         private Button ClearFieldsBT;
         private ComboBox MenTShirtCB;
         private PictureBox pictureBox2;
@@ -396,5 +500,13 @@
         private ComboBox MenTrousersCB;
         private ComboBox MenShortCB;
         private ComboBox MenSportWearCB;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
     }
 }
