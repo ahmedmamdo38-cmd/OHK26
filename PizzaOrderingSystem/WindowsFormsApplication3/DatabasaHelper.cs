@@ -157,4 +157,6 @@ namespace WindowsFormsApplication3
         public int Quantity { get; set; }
         public decimal Price { get; set; }
     }
+
+    // Every thing is working expect the phpMyAdmin is not working!!
 }
